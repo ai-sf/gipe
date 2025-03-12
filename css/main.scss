@@ -21,8 +21,6 @@ $color-type2-light: {{ site.data.generic.color2-light }};
 // $color-type1: #4C6EAD;
 // $color-type2: #EAA84E;
 
-$slider-indicator-color: {{ site.data.generic.color1 }};
-
 //
 
 $text-color:       #111;
@@ -39,8 +37,6 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-// navbar title font size
-$navbar-brand-font-size: 2.1rem;
 
 
 // Using media queries with like this:
@@ -61,6 +57,7 @@ $navbar-brand-font-size: 2.1rem;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
+        "layout",
         "syntax-highlighting",
         "materialize",
         "custom"

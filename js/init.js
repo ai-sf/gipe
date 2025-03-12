@@ -1,33 +1,30 @@
-$.fn.nextOrFirst = function(selector) {
-  var next = this.next(selector);
-  return (next.length) ? next : this.prevAll(selector).last();
-}
+(function($){
+    $(function(){
+        M.AutoInit()
+        $('.sidenav').sidenav();
+        $('.parallax').parallax();
+        $('.slider#slider-home').slider({height: 550, interval: 4000, duration: 3000});
+        $('.slider:not(#slider-home)').slider();
+        // Initialize collapsible (uncomment the line below if you use the dropdown variation)
+        $('.collapsible').collapsible({
+            onOpenStart: function(el){
+                $(".collapsible-header .material-icons", el).text("keyboard_arrow_up");
+            },
+            onCloseStart: function(el){
+                $(".collapsible-header .material-icons", el).text("keyboard_arrow_down");
+            }
+        });
+        $('.modal').modal();
+        $('.carousel').carousel();
 
-$(document).ready(function () {
-
-  $(".hamburger").on("click", function () {
-    $(".hamburger").toggleClass("active");
-    $(".nav-menu").toggleClass("active");
-  });
-
-
-  $(".slideshow .slide:eq(0)").addClass("active");
-  $(".slideshow .slide:gt(0)").hide();
-
-  var duration = 1000;
-  setInterval(function () {
-    $(".slideshow .slide.active:eq(0)").delay(duration).fadeOut(duration).removeClass("active").nextOrFirst('.slide').addClass("active").fadeIn(duration).end();
-
-  }, 15000);
-
-  $(".accordion li .item-header").on("click", function () {
-    parent = $(this).parent();
-    elem = $(".item-content", parent);
-    if (!parent.hasClass("active")) {
-      $(parent).addClass("active");
-      $(elem).fadeIn();
-    } else {
-      $(parent).removeClass("active");
-    }
-  });
-});
+        $(".row").each(function(){
+            maxHeight = 0;
+            $(".card .card-content", $(this)).each(function(){
+                maxHeight = Math.max($(".card-title", this).height(), maxHeight);
+            });
+            $(".card .card-content", $(this)).each(function(){
+                $(this).height(maxHeight);
+            });
+        });
+    }); // end of document ready
+})(jQuery); // end of jQuery name space

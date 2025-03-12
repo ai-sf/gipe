@@ -1,0 +1,31 @@
+---
+layout: page
+title: Partners
+---
+
+{% include cards.html data = site.data.partners %}
+<div class="row">
+    {% for partner in site.data.partners.institutions %}
+        <div class="col s12 m6 l4">
+          <div class="card small">
+            <div class="card-image valign-wrapper">
+              <img src="{{site.url}}/{{partner.logo}}">
+            </div>
+            <div class="card-content">
+             <a href="{{partner.website}}">
+                 <h4 class="custom1-text">{{partner.name}}</h4>
+             </a>
+            </div>
+          </div>
+        </div>
+    {% endfor %}
+  </div>
+
+<div class="section">
+  <div class="row">
+    <div class="col s12">
+      <h4>Support us</h4>
+      <p>If you are interested in partnering our events, please write an email to <a href="mailto:{{ site.data.partners.mail }}">this</a> email address.</p>
+    </div><br>
+  </div>
+</div>

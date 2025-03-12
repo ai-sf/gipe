@@ -1,6 +1,10 @@
 # Site settings
-title: "Titolo sito"
-description: "Descrizione sito"
+# title: "Acr Ev"
+# description: "nome evento completo"
+#url: "/" # the base hostname & protocol for your site
+title: "Gipe"
+description: "Gipe"
+url: "https://ai-sf.it/gipe25"
 destination: ../site/
 locale: "it"
 
@@ -21,6 +25,6 @@ collections:
     output: true
     permalink: /:categories/:year/:month/:day/:title/
 
-#plugins:
-# - jekyll-redirect-from
-# - jekyll-sitemap
+gems:
+ - jekyll-redirect-from
+ - jekyll-sitemap

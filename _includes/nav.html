@@ -10,8 +10,6 @@
         <a
            {% if item.url contains "http://" %}
               href="{{ item.url }}" target="_blank"
-           {% elsif item.url contains "https://" %}
-              href="{{ item.url }}" target="_blank"
            {% else %}
               href="{{ site.url }}/{{ item.url }}"
            {% endif %}

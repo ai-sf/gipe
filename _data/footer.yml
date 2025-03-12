@@ -1,22 +1,40 @@
 title: Associazione Italiana Studenti di Fisica
-descr: The Associazione Italiana Studenti di Fisica (AISF) gathers together most of the Italian physics students. It was founded in Heidelberg in August 2014 and since January 2015 is a National Committee for the International Association of Physics Students (IAPS).
+descr: The Associazione Italiana Studenti di Fisica (AISF) gathers together most of the Italian physics students. It was founded in Heidelberg in August 2014 and since January 2015 has been a Territorial Committee for the International Association of Physics Students (IAPS).
 
 contact:
+  - name: GIPE25
+    mail: gipe@ai-sf.it
   - name: AISF
     mail: esecutivo@ai-sf.it
+  - name: AISF Trieste
+    mail: trieste@ai-sf.it
+  - name: Contact person
+    mail: agata.demaria@ai-sf.it (?)
 
 connect:
-  - name: Facebook
-    url: "https://it-it.facebook.com/aisf.fisica/"
-    facebook: true
-  - name: Instagram
-    url: "https://www.instagram.com/aisf_fisica/"
-    instagram: true
-  - name: Twitter
-    url: "https://twitter.com/aisf_fisica"
-    twitter: true
+  - name: GIPE25
+    url: https://instagram.com/gipe.25/
+    img: 'img/ig_logo3.png'
+  - name: AISF Trieste
+    url: https://instagram.com/aisftrieste/
+    img: 'img/ig_logo3.png'
+  - name: AISF
+    url: https://instagram.com/aisf_fisica/
+    img: 'img/ig_logo3.png'
 
 creator:
-  - name: Roberto Ciccarelli
-    mail: roberto.ciccarelli@ai-sf.it
+  #- name: Elisa Garabello
+  #  mail: elisa.garabello@ai-sf.it
+  #- name: Roberto Ciccarelli
+  #  mail: roberto.ciccarelli@ai-sf.it
+  - name: Denis Cristian Pal
+    # mail: deniscristian.pal@studenti.units.it
+    link: https://github.com/R3sten
 
+images:
+  - link: 'img/organizers/aisf_logo.png'
+    shape: 'rect'
+  - link: 'img/organizers/trieste_logo.png'
+    shape: 'rect'
+  # - link: "img/organizers/TAUT_logo.png"
+  #   shape: "rect"
