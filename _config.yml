@@ -1,6 +1,7 @@
 # Site settings
 title: "Gipe"
 description: "Gipe"
+baseurl: /gipe25
 url: "https://ai-sf.it/gipe25"
 destination: ../site/
 locale: "it"
