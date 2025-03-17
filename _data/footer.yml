@@ -4,12 +4,10 @@ descr: The Associazione Italiana Studenti di Fisica (AISF) gathers together most
 contact:
   - name: GIPE25
     mail: gipe@ai-sf.it
-  - name: AISF
-    mail: esecutivo@ai-sf.it
   - name: AISF Trieste
     mail: trieste@ai-sf.it
-  - name: Contact person
-    mail: agata.demaria@ai-sf.it (?)
+  - name: AISF
+    mail: esecutivo@ai-sf.it
 
 connect:
   - name: GIPE25
@@ -28,8 +26,8 @@ creator:
   #- name: Roberto Ciccarelli
   #  mail: roberto.ciccarelli@ai-sf.it
   - name: Denis Cristian Pal
-    # mail: deniscristian.pal@studenti.units.it
-    link: https://github.com/R3sten
+    mail: deniscristian.pal@studenti.units.it
+    # link: https://github.com/R3sten
   # - name: Giorgio Micaglio
   #   link: https://github.com/giorgiomi
 

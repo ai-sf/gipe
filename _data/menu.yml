@@ -10,9 +10,9 @@
   url: 'partners'
 # - text: "Transportation"
 #   url: "transportation"
-- text: 'jDPG'
-  icon: 'public'
-  url: https://www.dpg-physik.de/vereinigungen/fachuebergreifend/ak/akjdpg
 - text: 'AISF'
   icon: 'public'
   url: http://www.ai-sf.it
+- text: 'jDPG'
+  icon: 'public'
+  url: https://www.dpg-physik.de/vereinigungen/fachuebergreifend/ak/akjdpg

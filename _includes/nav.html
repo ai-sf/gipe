@@ -8,7 +8,7 @@
   {% else %}
     <li {% if itemurl  == navurl %} class="active" {% endif %}>
         <a
-           {% if item.url contains "http://" %}
+           {% if item.url contains "http://" or item.url contains "https://" %}
               href="{{ item.url }}" target="_blank"
            {% else %}
               href="{{ site.url }}/{{ item.url }}"

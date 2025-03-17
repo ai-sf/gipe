@@ -1,16 +1,16 @@
-logo: 'img/gipe_logo_white.png'
+logo: 'img/gipe_white_logo_cropped_light.png'
 longname: 'German Italian Physics Exchange'
 
 who:
-  text: '50 Physics students members of AISF (Associazione Italiana Studenti di Fisica) or IAPS (International Association of Physics Students), among whom:'
+  text: '50 Physics students members of AISF (Associazione Italiana Studenti di Fisica) and jDPG (Young German Physical Society), among whom:'
   subpoints:
     - text: '10 students from the University of Trieste'
     - text: '20 students from other italian universities'
     - text: '20 students from german universities'
 
-when: 'From Tuesday, September 16th to Saturday, February 20th 2025'
+when: 'From Tuesday 16th September to Saturday 20th February 2025'
 
-where: 'Various research facilties and other cool places into the city of Trieste '
+where: 'Some of the most advanced research facilties into the city of Trieste'
 
 slideshow1:
   - img: img/landscapes/trieste1_v2.jpg
@@ -20,7 +20,7 @@ slideshow1:
   - img: img/landscapes/trieste3.webp
     alt: Trieste3
 
-paragraph1: 'The Italian Association of Physics Students (AISF), in the current year 2025, organizes on September the German Italian Physics Exchange (GIPE), an international event of a scientific-cultural nature. The GIPE initiative was born from the desire to create a network of contacts between all the components IAPS (International Association of Physics Students).'
+paragraph1: 'The German Italian Physics Exchange 2025 is organised by AISF Trieste (Local Committee of the Italian Association of Physics Students) as part of a cultural and scientific exchange with the jDPG (young German Physical Society). The event will bring 50 students to visit some of the most advanced research facilities in Italy with one key mission: to foster enthusiasm in the minds of young physicists.'
 
 button: 'Apply here!'
 # slideshow2:
