@@ -110,7 +110,7 @@ title: Programme
                                             {% endif %}
                                         {% endif %}
                                         {% if act.group %}
-                                            {% assign photo =  "img/facilities/gen.jpg" %}
+                                            {% assign photo =  "img/facilities/gipe_logo.jpg" %}
                                             {% assign disp =  "Group" %}
                                             {% for x in site.data.facilities.cards %}
                                                 {% for y in x.items %}
@@ -160,6 +160,19 @@ title: Programme
                                                 </div>
                                             {% endfor %}
                                         {% endif %}
+                                        {% if act.bolddescription %}
+                                        <div class="row">
+                                            <div class="bold">
+                                                {{act.bolddescription}}
+                                            </div>
+                                            </div>
+
+                                        {%endif%}
+                                        {% if act.description %}
+                                        <div class="row">
+                                                {{act.description}}
+                                        </div>
+                                        {%endif%}
 
                                     </div>
                                 </li>
