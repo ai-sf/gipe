@@ -17,12 +17,12 @@ schedule:
   - day: Tuesday
     date: 16/09/2025
     activity:
-      - hour: '07:00 - 15:00'
-        name: Check-in at the hostel
-        description: <span>There will be someone waiting for you at the train station. In case of necessity dont'esitate to contact us.</span>
-        location:
-          name: ControVento Hostel
-          tag: 'hotel'
+      # - hour: '07:00 - 15:00'
+      #   name: Check-in at the hostel
+      #   description: <span>There will be someone waiting for you at the train station. In case of necessity dont'esitate to contact us.</span>
+      #   location:
+      #     name: ControVento Hostel
+      #     tag: 'hotel'
       - hour: '16:00'
         name: Opening Ceremony
         location:
@@ -30,7 +30,7 @@ schedule:
           room: Room A
           tag: 'dip'
         bolddescription: Institutional greetings from University of Trieste and our Sponsors.
-        description: <span>You will receive the keys to your rooms at the Hostello hostel if you didn’t check in before and instructions for the following days. Snacks and drinks are provided.</span>
+        description: <span>You will receive the keys to your rooms and instructions for the following days. Snacks and drinks are provided.</span>
   - day: Wednesday
     date: 17/09/2025
     activity:
@@ -60,7 +60,7 @@ schedule:
       - hour: '20:00'
         name: Visit to the astronomical observatory
         location:
-          name: INAF astronomical observatory
+          name: INAF Astronomical Observatory
           # room: Room TBD
           tag: 'inaf'
     #   - hour: '20:00'
@@ -156,7 +156,7 @@ schedule:
         location:
           name: INAF - Via G.B. Tiepolo, 11 I-34143 Trieste
           # room: Schrödingersaal
-          tag: 'inaf'
+          tag: 'inaf_central'
       #       subactivities:
       #         - title: "<b>Dual-Species Quantum Processors and Quantum Networks,</b><br><b><br></b><span><a href=\"http://www.bernienlab.com/\" target=\"_blank\">Ass.-Prof. Dr. Hannes Bernien</a></span><span>, BernienLab\_\_</span>"
       - hour: '15:00'

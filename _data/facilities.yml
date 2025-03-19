@@ -30,8 +30,14 @@ cards:
         site: https://www.elettra.eu/
         map: https://www.google.com/maps/place//data=!4m2!3m1!1s0x477b6a9c587b5e95:0x4ecec03937c177d3?sa=X&ved=1t:8290&ictx=111
 
-      - img: img/facilities/INAF-Tireste.jpg
+      - img: img/facilities/inaf_central.jpg
         title: INAF (National Institute for Astrophysics)
+        tag: 'inaf_central'
+        site: https://www.oats.inaf.it/index.php/en/
+        map: https://www.google.com/maps/place/Astronomical+Observatory+of+Trieste/@45.6440973,13.772883,14.45z/data=!4m6!3m5!1s0x477b6b74d923dc87:0xfeb91923b81a70c3!8m2!3d45.6440589!4d13.7741672!16zL20vMDhqcXl3?entry=ttu&g_ep=EgoyMDI1MDMxNy4wIKXMDSoASAFQAw%3D%3D
+
+      - img: img/facilities/INAF-Tireste.jpg
+        title: INAF Astronomical Observatory
         tag: 'inaf'
         site: https://www.oats.inaf.it/index.php/en/
         map: https://www.google.com/maps/place/INAF+Osservatorio+Astronomico+di+Trieste,+Stazione+Osservativa+di+Basovizza/@45.6427577,13.8759734,18z/data=!4m6!3m5!1s0x477b4038ba55bb87:0x6ebc178e1cf1dce2!8m2!3d45.6431159!4d13.8757696!16s%2Fg%2F11b75f7vx4?hl=en&entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoASAFQAw%3D%3D
@@ -42,15 +48,15 @@ cards:
       - img: img/accomodation/controvento.jpg
         title: ControVento Hostel
         tag: 'hotel'
-        descr: 'Accommodation in Trieste will be provided at the ControVento Hostel, Piazza Venezia, 1, 34123 Trieste TS'
+        descr: 'Accommodation for 30 people will be provided at the ControVento Hostel, Piazza Venezia, 1, 34123 Trieste TS'
         site: 'https://www.controventohostel.com/en/'
         map: 'https://www.google.com/maps/place//data=!4m2!3m1!1s0x477b6b79d12e3efb:0xe6c64728e0f26dfb?sa=X&ved=1t:8290&ictx=111'
-      # - img: img/facilities/youth_hostel_innsbruck.jpg
-      #   title: Youth Hostel Innsbruck
-      #   tag: 'hotel_innsbruck'
-      #   descr: 'Accomodation in Innsbruck will be provided at the Youth Hotel Innsbruck, Reichenauer Str. 147, 6020 Innsbruck, Austria.'
-      #   site: 'https://www.youth-hostel-innsbruck.at/en/'
-      #   map: 'https://goo.gl/maps/qCYfcrTfhv5JqjP16'
+      - img: img/accomodation/ictp_housing.jpg
+        title: ICTP guesthouse
+        tag: 'ictp_guesthouse'
+        descr: 'Accomodation for 10 people will be provided in one of the ICTP guesthouses, Via Beirut, 6, 34151 Trieste'
+        site: 'https://www.ictp.it/building/enrico-fermi-building/room/housing-office'
+        # map: 'https://goo.gl/maps/qCYfcrTfhv5JqjP16'
 
   # - name: "Lunch and Dinner"
   #   zoom: true
