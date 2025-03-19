@@ -57,7 +57,7 @@ schedule:
         #     abstract: descrizione
         description: <span>There will be a coffe break between the lectures.</span>
       # - title: <b>Titolo,</b><br><br><span><a href="https://google.com" target="_blank">Ass.-Prof. Dr. Nome Professore</a></span><span>, Branca Fisica/Ambito.</span>
-      - hour: '21:00'
+      - hour: '20:00'
         name: Visit to the astronomical observatory
         location:
           name: INAF astronomical observatory
