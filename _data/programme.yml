@@ -154,7 +154,7 @@ schedule:
       - hour: '10:00'
         name: Plenary lecture
         location:
-          name: INAF
+          name: INAF - Via G.B. Tiepolo, 11 I-34143 Trieste
           # room: Schrödingersaal
           tag: 'inaf'
       #       subactivities:
