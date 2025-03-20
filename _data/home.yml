@@ -13,11 +13,11 @@ when: 'From Tuesday 16th September to Saturday 20th September 2025'
 where: 'In some of the most advanced research facilties into the city of Trieste'
 
 slideshow1:
-  - img: img/landscapes/trieste1_v2.jpg
+  - img: img/landscapes/trieste3.webp
     alt: Trieste1
   - img: img/landscapes/trieste2.png
     alt: Trieste2
-  - img: img/landscapes/trieste3.webp
+  - img: img/landscapes/trieste1_v2.jpg
     alt: Trieste3
 
 paragraph1: 'The German Italian Physics Exchange 2025 is organised by AISF Trieste (Local Committee of the Italian Association of Physics Students) as part of a cultural and scientific exchange with the jDPG (young German Physical Society). The event will bring 50 students to visit some of the most advanced research facilities in Italy with one key mission: to foster enthusiasm in the minds of young physicists.'

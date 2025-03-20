@@ -2,7 +2,7 @@
   url: ''
 - text: 'Registration'
   url: 'registration'
-- text: 'Programme'
+- text: 'Schedule'
   url: 'programme'
 - text: 'Facilities'
   url: 'facilities'
