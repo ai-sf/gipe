@@ -23,7 +23,8 @@ schedule:
       #   location:
       #     name: ControVento Hostel
       #     tag: 'hotel'
-      - hour: '16:00'
+      - hour: ''
+      # - hour: '16:00'
         name: Opening Ceremony
         location:
           name: Physics Department
@@ -39,12 +40,14 @@ schedule:
       #   location:
       #     name: Via Valdirivo, 6, 34132 Trieste TS
       #     tag: 'hotello'
-      - hour: '09:00'
+      - hour: ''
+      # - hour: '09:00'
         name: City tour
         location:
           name: Trieste
           tag: ''
-      - hour: '15:00'
+      - hour: ''
+      # - hour: '15:00'
         name: Plenary lectures
         location:
           name: Physics Department
@@ -57,7 +60,8 @@ schedule:
         #     abstract: descrizione
         description: <span>There will be a coffe break between the lectures.</span>
       # - title: <b>Titolo,</b><br><br><span><a href="https://google.com" target="_blank">Ass.-Prof. Dr. Nome Professore</a></span><span>, Branca Fisica/Ambito.</span>
-      - hour: '20:00'
+      - hour: ''
+      # - hour: '20:00'
         name: Visit to the astronomical observatory
         location:
           name: INAF Astronomical Observatory
@@ -80,7 +84,8 @@ schedule:
       #         name: Youth Hostel Innsbruck, Reichenauer Str. 147, 6020 Innsbruck, Austria
       #         room: Room TBD
       #         tag: ''
-      - hour: '10:00'
+      - hour: ''
+      # - hour: '10:00'
         name: Plenary lecture
         location:
           name: SISSA
@@ -88,7 +93,8 @@ schedule:
           tag: 'sissa'
       #       subactivities:
       #         - title: <b>Fermionic Quantum Mixtures,</b><br><br><span><a href="https://iqoqi.at/de/personen/arbeitsgruppenmitarbeiter/grimm-gruppe/staff/cosetta-baroni" target="_blank">Dr. Cosetta Baroni</a>, Ultracold Quantum Matter.</span>
-      - hour: '15:00'
+      - hour: ''
+      # - hour: '15:00'
         name: Lab tour
         location:
           name: Elettra Sincotrone
@@ -96,7 +102,8 @@ schedule:
           tag: 'elettra'
       #       subactivities:
       #         - title: "<b>Quantum Physics with Trapped Ions,</b><br><br><span><a href=\"https://www.uibk.ac.at/sp-physik/research-groups/c-roos.html.en\" target=\"_blank\">Ass.-Prof. Dr. Christian Roos</a>, Quantum Optics and Spectroscopy\_\_</span>"
-      - hour: '21:00'
+      - hour: ''
+      # - hour: '21:00'
         name: Group activity
         location:
           name: TBD
@@ -151,7 +158,8 @@ schedule:
       #         name: Youth Hostel Innsbruck, Reichenauer Str. 147, 6020 Innsbruck, Austria
       #         room: Room TBD
       #         tag: ''
-      - hour: '10:00'
+      - hour: ''
+      # - hour: '10:00'
         name: Plenary lecture
         location:
           name: INAF - Via G.B. Tiepolo, 11 I-34143 Trieste
@@ -159,7 +167,8 @@ schedule:
           tag: 'inaf_central'
       #       subactivities:
       #         - title: "<b>Dual-Species Quantum Processors and Quantum Networks,</b><br><b><br></b><span><a href=\"http://www.bernienlab.com/\" target=\"_blank\">Ass.-Prof. Dr. Hannes Bernien</a></span><span>, BernienLab\_\_</span>"
-      - hour: '15:00'
+      - hour: ''
+      # - hour: '15:00'
         name: Plenary lecture
         location:
           name: ICTP
@@ -179,7 +188,8 @@ schedule:
       #         name: Techcafe, CT TE021a ICT Gebaude, Technikerstraße 21a, 6020 Innsbruck, Austria
       #         room: Room TBD
       #         tag: ''
-      - hour: '18:00'
+      - hour: ''
+      # - hour: '18:00'
         name: Free time
         location:
           name: Barcola & Miramare
@@ -191,7 +201,8 @@ schedule:
       #         name: Ostello Trento
       #         room: Giovane Europa, Via Torre Vanga, 11, 38122 Trento TN, Italia
       #         tag: ''
-      - hour: '19:00'
+      - hour: ''
+      # - hour: '19:00'
         name: Social Dinner
         location:
           name: TBD
@@ -216,7 +227,8 @@ schedule:
       #     name: Ostello Trento
       #     room: Giovane Europa, Via Torre Vanga, 11, 38122 Trento TN, Italia
       #     tag: ''
-      - hour: '09:00'
+      - hour: ''
+      # - hour: '09:00'
         name: Closing Cerimony
         location:
           name: Physics Department
@@ -232,7 +244,8 @@ schedule:
       #     tag: physunitn
       #   subactivities:
       #     - title: '<b>Topic: Quantum spin mixtures,</b><br><br><a href="https://webapps.unitn.it/du/en/Persona/PER0120868/Didattica" target="_blank"><u>Giacomo Lamporesi</u></a>, Pitaevskii Center for Bose-Einstein Condensation<b></b>'
-      - hour: '10:00'
+      - hour: ''
+      # - hour: '10:00'
         name: City visit and departures
         location:
           name: Trieste

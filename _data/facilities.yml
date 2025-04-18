@@ -48,13 +48,13 @@ cards:
       - img: img/accomodation/controvento.jpg
         title: ControVento Hostel
         tag: 'hotel'
-        descr: 'Accommodation for 30 people will be provided at the ControVento Hostel, Piazza Venezia, 1, 34123 Trieste TS'
+        descr: 'Accommodation for 20 people will be provided at the ControVento Hostel, Piazza Venezia, 1, 34123 Trieste TS'
         site: 'https://www.controventohostel.com/en/'
         map: 'https://www.google.com/maps/place//data=!4m2!3m1!1s0x477b6b79d12e3efb:0xe6c64728e0f26dfb?sa=X&ved=1t:8290&ictx=111'
       - img: img/accomodation/ictp_housing.jpg
         title: ICTP guesthouse
         tag: 'ictp_guesthouse'
-        descr: 'Accomodation for 10 people will be provided in one of the ICTP guesthouses, Via Beirut, 6, 34151 Trieste'
+        descr: 'Accomodation for 20 people will be provided in one of the ICTP guesthouses'
         site: 'https://www.ictp.it/building/enrico-fermi-building/room/housing-office'
         # map: 'https://goo.gl/maps/qCYfcrTfhv5JqjP16'
 
