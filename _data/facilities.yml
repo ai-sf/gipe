@@ -44,13 +44,13 @@ cards:
         site: https://www.areasciencepark.it/en/
         map: https://maps.app.goo.gl/QjX1R2wdFLPcJg4R7
 
-        # TODO: da aggiornare cnr
-      - img: img/facilities/cnr.jpg
-        title: CNR (National Research Council)
-        tag: 'cnr'
-        descr: ''
-        site: https://www.cnr.it/en
-        map: https://maps.app.goo.gl/kq95u1NAUaFvmV1S8
+      #   # TODO: da aggiornare cnr
+      # - img: img/facilities/cnr.jpg
+      #   title: CNR (National Research Council)
+      #   tag: 'cnr'
+      #   descr: ''
+      #   site: https://www.cnr.it/en
+      #   map: https://maps.app.goo.gl/kq95u1NAUaFvmV1S8
 
       - img: img/facilities/inaf_central.jpg
         title: INAF (National Institute for Astrophysics)
