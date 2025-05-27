@@ -4,43 +4,68 @@ cards:
     items:
       - img: img/facilities/dip_units.png
         title: University of Trieste - Physics Department
-        # descr: 'The University of Trento is a recent, medium-sized university: the Department of Physics was established in 2012 after its researchers had been engaged in many key sectors for almost 40 years. During this event, the University will host talks focused on the research performed in Trento about Bose-Einstein condensation and Nanoscience'
-        site: https://df.units.it/en
         tag: 'dip'
-        map: https://www.google.it/maps/place/Dipartimento+di+Fisica+-+Edificio+F/@45.6583729,13.7916309,17z/data=!3m2!4b1!5s0x477b6b181bd0b40f:0x8e67ad519e2fd391!4m6!3m5!1s0x477b6b181bc41015:0xada47db0304302eb!8m2!3d45.6583692!4d13.7942058!16s%2Fg%2F1vs5vk1k?entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoASAFQAw%3D%3D
+        descr: ''
+        site: https://df.units.it/en
+        map: https://maps.app.goo.gl/rtcd5ufs2pXyiAic7
+
+      - img: img/facilities/fonda.jpg
+        title: Collegio Fonda
+        tag: 'fonda'
+        descr: ''
+        site: https://www.collegiofonda.it/
+        map: https://maps.app.goo.gl/n59AKzY4mtLeuwCc9
+
+      - img: img/facilities/INAF-Tireste.jpg
+        title: INAF Astronomical Observatory
+        tag: 'inaf'
+        descr: ''
+        site: https://www.oats.inaf.it/index.php/en/
+        map: https://maps.app.goo.gl/Dh1BH587zKyBNYyC8
 
       - img: img/facilities/sissa.jpg
         title: SISSA (Scuola Internazionale Superiore di Studi Avanzati)
-        descr: 'The SISSA was founded in 1978 and is a scientific center of excellence within the national and international academic scene. SISSA’s activities focus on three main areas: Physics, Neuroscience and Mathematics. All the scientific work carried out by SISSA researchers is published regularly in leading international journals with a high impact factor, and frequently in the most prestigious scientific journals such as Nature and Science.'
-        site: https://www.sissa.it/
         tag: 'sissa'
-        map: https://www.google.com/maps/place//data=!4m2!3m1!1s0x477b6b5347fa4dc3:0x6e94dec68212367b?sa=X&ved=1t:8290&ictx=111
-
-      - img: img/facilities/ictpjpg.jpg
-        title: ICTP (International Centre for Theoretical Physics)
-        descr: 'Founded in 1964 by the late Nobel Laureate Abdus Salam and by Italian physicist Paolo Budinich, ICTP is a unique institution that explores fundamental scientific questions at the highest level, promotes active engagement with scientists in developing countries, and advances international cooperation through science.'
-        site: https://www.ictp.it/
-        tag: 'ictp'
-        map: https://www.google.com/maps/place/The+Abdus+Salam+International+Centre+for+Theoretical+Physics/@45.7037499,13.7183378,17z/data=!3m1!4b1!4m6!3m5!1s0x477b12dc14b4237f:0x398f86cdb36625e!8m2!3d45.7037499!4d13.7183378!16zL20vMGJwOGI2?hl=en&entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoASAFQAw%3D%3D
+        descr: "The SISSA was founded in 1978 and is a scientific center of excellence within the national and international academic scene. SISSA's activities focus on three main areas: Physics, Neuroscience and Mathematics. All the scientific work carried out by SISSA researchers is published regularly in leading international journals with a high impact factor, and frequently in the most prestigious scientific journals such as Nature and Science."
+        site: https://www.sissa.it/
+        map: https://maps.app.goo.gl/h7Be2Mi2NtojNgxF8
 
       - img: img/facilities/elettra.jpg
         title: Elettra Sincrotrone Trieste
         tag: 'elettra'
         descr: 'Elettra Sincrotrone Trieste is a multidisciplinary research center of excellence, open to the international research community, specializing in generating high quality synchrotron and free-electron laser light and applying it in materials and life sciences.'
         site: https://www.elettra.eu/
-        map: https://www.google.com/maps/place//data=!4m2!3m1!1s0x477b6a9c587b5e95:0x4ecec03937c177d3?sa=X&ved=1t:8290&ictx=111
+        map: https://maps.app.goo.gl/Dg5dRUTaoKaPAcX1A
+
+      - img: img/facilities/padriciano.jpg
+        title: AREA Science Park
+        tag: 'padriciano'
+        descr: ''
+        site: https://www.areasciencepark.it/en/
+        map: https://maps.app.goo.gl/QjX1R2wdFLPcJg4R7
+
+        # TODO: da aggiornare cnr
+      - img: img/facilities/cnr.jpg
+        title: CNR (National Research Council)
+        tag: 'cnr'
+        descr: ''
+        site: https://www.cnr.it/en
+        map: https://maps.app.goo.gl/kq95u1NAUaFvmV1S8
 
       - img: img/facilities/inaf_central.jpg
         title: INAF (National Institute for Astrophysics)
         tag: 'inaf_central'
+        descr: ''
         site: https://www.oats.inaf.it/index.php/en/
-        map: https://www.google.com/maps/place/Astronomical+Observatory+of+Trieste/@45.6440973,13.772883,14.45z/data=!4m6!3m5!1s0x477b6b74d923dc87:0xfeb91923b81a70c3!8m2!3d45.6440589!4d13.7741672!16zL20vMDhqcXl3?entry=ttu&g_ep=EgoyMDI1MDMxNy4wIKXMDSoASAFQAw%3D%3D
+        map: https://maps.app.goo.gl/oZbL4v8h46Av9cT56
 
-      - img: img/facilities/INAF-Tireste.jpg
-        title: INAF Astronomical Observatory
-        tag: 'inaf'
-        site: https://www.oats.inaf.it/index.php/en/
-        map: https://www.google.com/maps/place/INAF+Osservatorio+Astronomico+di+Trieste,+Stazione+Osservativa+di+Basovizza/@45.6427577,13.8759734,18z/data=!4m6!3m5!1s0x477b4038ba55bb87:0x6ebc178e1cf1dce2!8m2!3d45.6431159!4d13.8757696!16s%2Fg%2F11b75f7vx4?hl=en&entry=ttu&g_ep=EgoyMDI1MDMxMi4wIKXMDSoASAFQAw%3D%3D
+      - img: img/facilities/ictpjpg.jpg
+        title: ICTP (International Centre for Theoretical Physics)
+        tag: 'ictp'
+        descr: 'Founded in 1964 by the late Nobel Laureate Abdus Salam and by Italian physicist Paolo Budinich, ICTP is a unique institution that explores fundamental scientific questions at the highest level, promotes active engagement with scientists in developing countries, and advances international cooperation through science.'
+        site: https://www.ictp.it/
+        map: https://maps.app.goo.gl/wc3wzKTA5rQxrviUA
+
 
   - name: 'Accommodation'
     zoom: true
@@ -50,13 +75,14 @@ cards:
         tag: 'hotel'
         descr: 'Accommodation for 20 people will be provided at the ControVento Hostel, Piazza Venezia, 1, 34123 Trieste TS'
         site: 'https://www.controventohostel.com/en/'
-        map: 'https://www.google.com/maps/place//data=!4m2!3m1!1s0x477b6b79d12e3efb:0xe6c64728e0f26dfb?sa=X&ved=1t:8290&ictx=111'
-      - img: img/accomodation/ictp_housing.jpg
-        title: ICTP guesthouse
+        map: 'https://maps.app.goo.gl/MB2eGrJL8hNmQNhw7'
+
+      - img: img/accomodation/ggh.jpg
+        title: ICTP Galileo Guesthouse
         tag: 'ictp_guesthouse'
-        descr: 'Accomodation for 20 people will be provided in one of the ICTP guesthouses'
-        site: 'https://www.ictp.it/building/enrico-fermi-building/room/housing-office'
-        # map: 'https://goo.gl/maps/qCYfcrTfhv5JqjP16'
+        descr: 'Accomodation for 20 people will be provided at the ICTP Galileo Guesthouse, Via Beirut, 7, 34151 Trieste TS'
+        site: 'https://www.ictp.it/building/galileo-guesthouse'
+        map: 'https://maps.app.goo.gl/c2q3KwCMED2ccHN47'
 
   # - name: "Lunch and Dinner"
   #   zoom: true

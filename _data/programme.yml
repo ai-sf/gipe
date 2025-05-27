@@ -32,6 +32,16 @@ schedule:
           tag: 'dip'
         bolddescription: Institutional greetings from University of Trieste and our Sponsors.
         description: <span>You will receive the keys to your rooms and instructions for the following days. Snacks and drinks are provided.</span>
+
+      - hour: ''
+      # - hour: '16:00'
+        name: Ricreational activity at Collegio Fonda
+        location:
+          name: Collegio Fonda
+          # room: Room A
+          tag: 'fonda'
+        # bolddescription: Institutional greetings from University of Trieste and our Sponsors.
+        # description: <span>You will receive the keys to your rooms and instructions for the following days. Snacks and drinks are provided.</span>
   - day: Wednesday
     date: 17/09/2025
     activity:
@@ -42,7 +52,7 @@ schedule:
       #     tag: 'hotello'
       - hour: ''
       # - hour: '09:00'
-        name: City tour
+        name: Visit of the city
         location:
           name: Trieste
           tag: ''
@@ -62,7 +72,7 @@ schedule:
       # - title: <b>Titolo,</b><br><br><span><a href="https://google.com" target="_blank">Ass.-Prof. Dr. Nome Professore</a></span><span>, Branca Fisica/Ambito.</span>
       - hour: ''
       # - hour: '20:00'
-        name: Visit to the astronomical observatory
+        name: Visit to the Astronomical Observatory
         location:
           name: INAF Astronomical Observatory
           # room: Room TBD
@@ -86,7 +96,7 @@ schedule:
       #         tag: ''
       - hour: ''
       # - hour: '10:00'
-        name: Plenary lecture
+        name: Plenary lectures
         location:
           name: SISSA
           # room: Room TBD
@@ -95,7 +105,7 @@ schedule:
       #         - title: <b>Fermionic Quantum Mixtures,</b><br><br><span><a href="https://iqoqi.at/de/personen/arbeitsgruppenmitarbeiter/grimm-gruppe/staff/cosetta-baroni" target="_blank">Dr. Cosetta Baroni</a>, Ultracold Quantum Matter.</span>
       - hour: ''
       # - hour: '15:00'
-        name: Lab tour
+        name: Lab tours
         location:
           name: Elettra Sincotrone
           # room: Schrödingersaal
@@ -104,9 +114,9 @@ schedule:
       #         - title: "<b>Quantum Physics with Trapped Ions,</b><br><br><span><a href=\"https://www.uibk.ac.at/sp-physik/research-groups/c-roos.html.en\" target=\"_blank\">Ass.-Prof. Dr. Christian Roos</a>, Quantum Optics and Spectroscopy\_\_</span>"
       - hour: ''
       # - hour: '21:00'
-        name: Group activity
+        name: Free evening
         location:
-          name: TBD
+          name: Trieste
           # room: Room TBD
           tag: ''
   #     - hour: '11:30'
