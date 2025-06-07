@@ -1,6 +1,6 @@
-# # - text: 'Home'
+- text: 'Home'
 # - text: ''
-#   url: ''
+  url: ''
 - text: 'Schedule'
   url: 'schedule'
 - text: 'Facilities'
@@ -13,7 +13,7 @@
 #   url: "transportation"
 - text: 'AISF'
   icon: 'public'
-  url: http://www.ai-sf.it
+  url: https://www.ai-sf.it
 - text: 'jDPG'
   icon: 'public'
   url: https://www.dpg-physik.de/vereinigungen/fachuebergreifend/ak/akjdpg
