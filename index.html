@@ -5,20 +5,20 @@ script: home.js
 
 
 <div class="slider fullscreen" id="slider-home">
-  <div id="banner-description">
-    <img src="{{site.url}}/{{site.data.home.logo}}" id="site-logo">
-    <div>{{site.data.home.longname}}</div>
+    <div id="banner-description">
+        <img src="{{site.url}}/{{site.data.home.logo}}" id="site-logo">
+        <div>{{site.data.home.longname}}</div>
+    </div>
+    <div id="gradient-nav"></div>
+    <div id="chevron-banner"><i class="material-icons">keyboard_arrow_down</i></div>
+    <ul class="slides">
+     {% for img in site.data.home.slideshow1 %}
+      <li>
+        <img src="{{site.url}}/{{img.img}}" alt="{{img.alt}}">
+      </li>
+      {% endfor%}
+    </ul>
   </div>
-  <div id="gradient-nav"></div>
-  <div id="chevron-banner"><i class="material-icons">keyboard_arrow_down</i></div>
-  <ul class="slides">
-    {% for img in site.data.home.slideshow1 %}
-    <li>
-      <img src="{{site.url}}/{{img.img}}" alt="{{img.alt}}">
-    </li>
-    {% endfor%}
-  </ul>
-</div>
 
 
 <div class="no-pad-top" id="index-page">
@@ -31,14 +31,14 @@ script: home.js
             <h2 class="center"><i class="medium material-icons custom1-text">supervisor_account</i></h2>
             <h2 class="center">Who</h2>
             <p class="light">
-              {{ site.data.home.who.text }}</p>
-            {% if site.data.home.who.subpoints %}
-            <ul class="dashed light">
-              {% for x in site.data.home.who.subpoints %}
-              <li>{{x.text}}</li>
-              {% endfor %}
-            </ul>
-            {% endif %}
+                {{ site.data.home.who.text }}</p>
+                {% if site.data.home.who.subpoints %}
+                <ul class="dashed light">
+                    {% for x in site.data.home.who.subpoints %}
+                        <li>{{x.text}}</li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
           </div>
         </div>
 
@@ -60,14 +60,13 @@ script: home.js
       </div>
 
 
-      <!-- paragraph -->
-      <div class="section">
-        <div class="row">
-          <div class="col s8 offset-s2">
-            <div class="icon-block">
-              <h3 class="center"><i class="medium material-icons custom1-text">send</i></h3>
-              <p class="center light">{{ site.data.home.paragraph1 }}</p>
-            </div>
+    <!-- paragraph -->
+    <div class="section">
+      <div class="row">
+        <div class="col s8 offset-s2">
+          <div class="icon-block">
+            <h3 class="center"><i class="medium material-icons custom1-text">send</i></h3>
+            <p class="center light">{{ site.data.home.paragraph1 }}</p>
           </div>
         </div>
       </div>
@@ -113,18 +112,10 @@ script: home.js
 
 <div class="container">
   <div class="row" style="text-align:center; align-items: center;">
-
-    {% for image in site.data.footer.images %}
-    <img class="{{image.shape}}" src="{{image.link}}"
-      style="width:40%; display:inline-block; margin-right:10px; margin-left:10px; vertical-align: middle; min-width: 150px; max-width: 260px">
-    {% endfor %}
-
-    <!-- Widget banner Go2025 Start -->
-    <div id="countdownGo2025" class="banner-widget banner-borderless"
-      style="width:100%; max-width: 300px;display:inline-block;margin-right:10px; margin-left:10px;vertical-align: middle;min-width: 170px">
-    </div>
-    <script>widgetType = "banner-borderless";</script>
-    <script src="https://www.go2025.eu/kumbe/minified/js/go2025countdown.min.js?lang=EN"></script>
-    <!-- Widget banner Go2025 End -->
+    
+      {% for image in site.data.footer.images %}
+        <img class="{{image.shape}}" src="{{image.link}}" style="width:25%; display:inline-block; margin-right:40px; margin-left:40px; vertical-align: middle;">
+      {% endfor %}
+    
   </div>
 </div>
