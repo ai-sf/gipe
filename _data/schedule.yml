@@ -117,9 +117,9 @@ physicist Paolo Budinich."
         - '- “Discussion game” about open acces'
       speakers:
         - name: "Pierluigi Masai"
-          photo: "/img/speakers/masai/foto_Masai-683950461.JPG"
+          photo: "/img/speakers/masai/foto_Masai-683950461.jpg"
           description: "Researcher at the University of Trieste"
-          # url: "/speakers/john-doe.html"
+      #     # url: "/speakers/john-doe.html"
 
     - time: "13:00-14:30"
       title: "LUNCH AT SISSA"
