@@ -3,7 +3,7 @@ mail: gipe@ai-sf.it
 cards:
   - name: 'Under the patronage of:'
     size: 'small'
-    # zoom: true
+    zoom: false
     items:
       - title: 'Comune di Trieste'
         site: 'https://www.comune.trieste.it/'
@@ -53,9 +53,9 @@ cards:
       - title: 'Elettra Sincrotrone Trieste'
         site: 'https://www.elettra.eu/'
         img: 'img/partners/ELETTRA/elettra.png'
-      # - title: 'PromoTurismoFVG'
-      #   site: 'https://www.promoturismo.fvg.it/'
-      #   img: 'img/partners/PromoTurismoFVG/tfvg-positivo-verticale.svg'
+      - title: 'Collegio Universitario Luciano Fonda'
+        site: 'https://www.collegiofonda.it/'
+        img: 'img/partners/FONDA/fonda-ok-ok.jpg'
 
 
   - name: 'Official sponsors:'

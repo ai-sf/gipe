@@ -1,0 +1,188 @@
+- day: TUESDAY 16/09
+  slots:
+    - time: "09:00-15:00"
+      title: "WELCOME"
+      place:
+        name: "Department of Physics"
+        url: "/facilities/#dip"
+      description: "Participants will be welcomed with gadgets and helpful information to check-in at the
+ControventoHostel / ICTP Guest House."
+      # speakers:
+      #   - name: "John Doe"
+      #     photo: "/img/speakers/coslovich/portrait.jpg"
+      #     description: "Expert in quantum computing"
+      #     url: "/speakers/john-doe.html"
+      #   - name: "Jane Smith"
+      #     photo: "/images/speakers/jane.jpg"
+      #     description: "AI researcher and lecturer"
+      #     url: "/speakers/jane-smith.html"
+
+    - time: "14:30-16:30"
+      title: "OPENING CEREMONY"
+      place:
+        name: "Department of Physics"
+        url: "/facilities/#dip"
+      description: "Institutional greetings from the professors of the Physics Department. They’ll illustrate what it
+means to do research in Trieste, it will be followed by the presentation of some of our
+sponsors."
+      speakers: []
+
+    - time: "16:30-17:30"
+      title: "Coffee break"
+      place:
+        name: "Department of Physics"
+        url: "/facilities/#dip"
+
+    - time: "16:30-17:30"
+      title: "FREE TIME / POSSIBLE DINNER"
+
+    - time: "20:00-23:00"
+      title: "SOCIAL ACTIVITY WITH STUDENTS FROM COLLEGIO FONDA"
+      place:
+        name: "Collegio Fonda"
+        url: "/facilities/#fonda"
+#       description: "Institutional greetings from the professors of the Physics Department. They’ll illustrate what it
+# means to do research in Trieste, it will be followed by the presentation of some of our
+# sponsors."
+
+- day: WEDNESDAY 17/09
+  slots:
+    - time: "9:00-12:30"
+      title: "GUIDED TOUR OF THE CITY"
+
+    - time: "12:30-14:00"
+      title: "Free lunch"
+
+    - time: "14:30-18:30"
+      title: "SEMINARS"
+      place:
+        name: "Department of Physics"
+        url: "/facilities/#dip"
+      descriptions:
+      - "You'll attend 5 conferences of 30 minutes each. The seminars will cover topics such as: the
+history of Quantum Mechanics; Physics of Complex Systems; High Performance Computing
+-Big Data - Machine Learning; Interdisciplinary Electronic and Advanced Sensor Laboratory."
+      - "- <strong>14:30-16:30</strong> 3 conferences"
+      - "- <strong>16:30-17:30</strong> coffee break"
+      - "- <strong>17:30-18:30</strong> 2 conferences"
+      note: "Soon you'll find out about our speakers and seminars' abstracts!"
+      # speakers:
+      #   - name: "John Doe" 
+      #     photo: "/img/speakers/coslovich/portrait.jpg"
+      #     description: "Expert in quantum computing"
+      #     url: "/speakers/john-doe.html"
+      #   - name: "Jane Smith"
+      #     photo: "/images/speakers/jane.jpg"
+      #     description: "AI researcher and lecturer"
+      #     url: "/speakers/jane-smith.html"
+
+    - time: "18:30-19:30"
+      title: "POSSIBLE DINNER"
+
+    - time: "19:30-23:00"
+      title: "VISIT OF THE ASTRONOMICAL OBSERVATORY OF TRIESTE"
+      place:
+        name: "INAF-OATS"
+        url: "/facilities/#inaf" 
+      descriptions:
+        - "You will have the opportunity to visit Margherita Hack's Specola, where the famous
+astrophysicist and science popularizer worked. The observatory is located in a rural area of
+Trieste (Basovizza), where light pollution is lower, allowing for better star observation."
+      note: "<strong><u>Note:</u></strong>  Private transportation to and from OATS; the return bus will take you directly to your
+accommodation."
+      # speakers:
+      #   - name: "John Doe"
+      #     photo: "/img/speakers/coslovich/portrait.jpg"
+      #     description: "Expert in quantum computing"
+      #     url: "/speakers/john-doe.html"
+      #   - name: "Jane Smith"
+      #     photo: "/images/speakers/jane.jpg"
+      #     description: "AI researcher and lecturer"
+      #     url: "/speakers/jane-smith.html"
+
+- day: THURSDAY 18/09
+  slots:
+    - time: "9:00-13:00"
+      title: "VISITING SISSA" # TODO: da finire
+      place:
+        name: "SISSA"
+        url: "/facilities/#sissa"
+      description: "You will have the chance to visit one of the research centers founded by the Triestin
+physicist Paolo Budinich."
+      descriptions:
+        - "The structure of the visit is the following:"
+        - "- Conference held by Dott. Pierluigi Masai"
+        - "- Presentation of SISSA's research branches"
+        - "- Coffee break"
+        - '- “Discussion game” about open acces'
+      speakers:
+        - name: "Pierluigi Masai"
+          photo: "/img/speakers/masai/foto_Masai-683950461.JPG"
+          description: "Researcher at the University of Trieste"
+          # url: "/speakers/john-doe.html"
+
+    - time: "13:00-14:30"
+      title: "LUNCH AT SISSA"
+      place:
+        name: "SISSA"
+        url: "/facilities/#sissa"
+
+    - time: "15:00-19:00"
+      title: "VISITING LABORATORIES"
+      place:
+        name: "Padriciano/Basovizza"
+        # url: "/facilities/#elettra"
+      description: "Participants will have the opportunity to visit the laboratories of AREA Science Park, Elettra
+Sincrotrone, CNR and INFN."
+      note: "More details will be available soon!"
+
+    - time: "19:00-23:00"
+      title: "FREE EVENING"
+
+
+- day: FRIDAY 19/09
+  slots:
+    - time: "9:00-11:30"
+      title: "CONFERENCE"
+      place:
+        name: "INAF-OATS"
+        url: "/facilities/#inaf_central"
+      description: "You will have the chance to discover what kind of research a physicist can do at INAF."
+
+    - time: "12:30-14:00"
+      title: "LUNCH AT ICTP"
+      place:
+        name: "ICTP"
+        url: "/facilities/#ictp"
+
+    - time: "14:00-17:00"
+      title: "VISITING ICTP"
+      place:
+        name: "ICTP"
+        url: "/facilities/#ictp"
+      description: "You will have the opportunity to visit the International Centre for Theoretical Physics,
+founded by Paolo Budinich and Abdus Salam in 1964.
+They'll tell us about the history of ICTP, followed by some conferences held by ICTP's
+researchers."
+
+    - time: "17:00-18:30"
+      title: "Coffee break"
+      place:
+        name: "ICTP"
+        url: "/facilities/#ictp"
+      description: "Followed by the possibility to join us to discover <strong>Miramare Castle</strong>."
+
+    - time: "20:30-23:00"
+      place:
+        name: "Caffè degli Specchi"
+      title: "SOCIAL DINNER"
+
+
+- day: SATURDAY 20/09
+  slots:
+    - time: "10:00-12:00"
+      title: "CLOSING CEREMONY"
+      place:
+        name: "Collegio Fonda"
+        url: "/facilities/#fonda"
+      # description: "You will have the chance to discover what kind of research a physicist can do at INAF."

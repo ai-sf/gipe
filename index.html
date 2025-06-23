@@ -26,7 +26,7 @@ script: home.js
     <!--   Icon Section   -->
     <div class="section">
       <div class="row">
-        <div class="col s12 m4">
+        <div class="col s12 m4 fade-in">
           <div class="icon-block">
             <h2 class="center"><i class="medium material-icons custom1-text">supervisor_account</i></h2>
             <h2 class="center">Who</h2>
@@ -42,7 +42,7 @@ script: home.js
           </div>
         </div>
 
-        <div class="col s12 m4">
+        <div class="col s12 m4 fade-in">
           <div class="icon-block">
             <h2 class="center"><i class="medium material-icons custom1-text">today</i></h2>
             <h2 class="center">When</h2>
@@ -50,7 +50,7 @@ script: home.js
           </div>
         </div>
 
-        <div class="col s12 m4">
+        <div class="col s12 m4 fade-in">
           <div class="icon-block">
             <h2 class="center"><i class="medium material-icons custom1-text">location_on</i></h2>
             <h2 class="center">Where</h2>
@@ -61,7 +61,7 @@ script: home.js
 
 
       <!-- paragraph -->
-      <div class="section">
+      <div class="section fade-in">
         <div class="row">
           <div class="col s8 offset-s2">
             <div class="icon-block">
@@ -112,11 +112,13 @@ script: home.js
 </div> -->
 
 <div class="container">
-  <div class="row" style="text-align:center; align-items: center;">
+  <div class="row fade-in" style="text-align:center; align-items: center;">
 
     {% for image in site.data.footer.images %}
-    <img class="{{image.shape}}" src="{{image.link}}"
-      style="width:40%; display:inline-block; margin-right:10px; margin-left:10px; vertical-align: middle; min-width: 150px; max-width: 260px">
+    <a href="https://ai-sf.it/en/">
+      <img class="{{image.shape}}" src="{{image.link}}"
+        style="width:40%; display:inline-block; margin-right:10px; margin-left:10px; vertical-align: middle; min-width: 150px; max-width: 260px">
+    </a>
     {% endfor %}
 
     <!-- Widget banner Go2025 Start -->

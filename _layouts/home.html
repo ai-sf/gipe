@@ -1,20 +1,45 @@
 <!DOCTYPE html>
 <html lang="it">
-  {% include head.html %}
-  <body>
-      {% assign navurl = page.url | remove: 'index.html' | remove: '/'%}
-      <nav class="fixed-top" role="navigation">
-          <div class="nav-wrapper container">
-              <a href="#" data-target="nav-mobile" class="button-collapse hide-on-large-only sidenav-trigger"><i class="material-icons">menu</i></a>
-              <a id="logo-container" href="{{ site.url }}/index.html" class="brand-logo">{{ site.data.generic.title }}</a>
-                    {% include nav.html nav=site.data.menu%}
-          </div>
-      </nav>
-      {% include mobile-nav.html nav=site.data.menu%}
+{% include head.html %}
+
+<body>
+  {% assign navurl = page.url | remove: 'index.html' | remove: '/'%}
+  <nav class="fixed-top" role="navigation">
+    <div class="nav-wrapper container">
+      <a href="#" data-target="nav-mobile" class="button-collapse hide-on-large-only sidenav-trigger"><i
+          class="material-icons">menu</i></a>
+      <a id="logo-container" href="{{ site.url }}/index.html" class="brand-logo">{{ site.data.generic.title }}</a>
+      {% include nav.html nav=site.data.menu%}
+    </div>
+  </nav>
+  {% include mobile-nav.html nav=site.data.menu%}
 
 
-        {{ content }}
-    {% include footer.html %}
-  </body>
-  {% include scripts.html %}
+  {{ content }}
+  {% include footer.html %}
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const faders = document.querySelectorAll('.fade-in');
+      const appearOptions = {
+        threshold: 0.1,
+        rootMargin: "0px 0px -50px 0px"
+      };
+
+      const appearOnScroll = new IntersectionObserver(function (entries, observer) {
+        entries.forEach(entry => {
+          if (!entry.isIntersecting) return;
+          entry.target.classList.add("visible");
+          observer.unobserve(entry.target);
+        });
+      }, appearOptions);
+
+      faders.forEach(el => {
+        appearOnScroll.observe(el);
+      });
+    });
+  </script>
+</body>
+{% include scripts.html %}
+
 </html>

@@ -1,0 +1,64 @@
+<div class="schedule-container">
+    {% for day in site.data.schedule %}
+    <div class="schedule-card fade-in">
+        <div class="day-decorator-top">
+            <i class="material-icons">event</i>
+            <span class="day-title">{{ day.day }}</span>
+        </div>
+
+        {% for slot in day.slots %}
+        {% assign is_last = forloop.last %}
+        <div class="schedule-slot{% if is_last %} last-slot{% endif %} fade-in">
+            <div class="slot-meta">
+                <i class="material-icons icon-time">access_time</i>
+                {{ slot.time }}
+                {% if slot.place %}
+                {% if slot.place.url %}
+                <i class="material-icons icon-place">place</i>
+                <a href="{{ slot.place.url }}">{{ slot.place.name }}</a>
+                {% else %}
+                <i class="material-icons icon-place">place</i>
+                {{ slot.place.name }}
+                {% endif %}
+                {% endif %}
+                <!-- <i class="material-icons icon-place">place</i>
+                <a href="{{site.url}}{{ slot.place.url }}">{{ slot.place.name }}</a> -->
+            </div>
+            <div class="slot-title">{{ slot.title }}</div>
+            <div class="slot-description">{{ slot.description | safe}}</div>
+            {% if slot.descriptions %}
+            <ul class="slot-descriptions">
+                {% for desc in slot.descriptions %}
+                <li>{{ desc | safe}}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            {% if slot.note %}
+            <div class="note-description">{{ slot.note | safe}}</div>
+            {% endif %}
+            {% if slot.speakers and slot.speakers.size > 0 %}
+            <div class="speakers fade-in">
+                {% for speaker in slot.speakers %}
+                <a href="{{ speaker.url }}" class="speaker-card-link">
+                    <div class="speaker-card">
+                        <div class="speaker-image-container">
+                            <img src="{{ speaker.photo }}" alt="{{ speaker.name }}" class="speaker-image" />
+                        </div>
+                        <div class="speaker-info">
+                            <div class="speaker-name">{{ speaker.name }}</div>
+                            <div class="speaker-description">{{ speaker.description }}</div>
+                        </div>
+                    </div>
+                </a>
+                {% endfor %}
+            </div>
+            {% endif %}
+            <!-- {% unless is_last %} -->
+            <div class="slot-line"></div>
+            <!-- {% endunless %} -->
+        </div>
+        {% endfor %}
+        <div class="day-decorator-bottom"></div>
+    </div>
+    {% endfor %}
+</div>

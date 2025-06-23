@@ -34,7 +34,9 @@ creator:
 images:
   - link: 'img/organizers/aisf_logo.png'
     shape: 'rect'
+    url: 'https://ai-sf.it/en/'
   - link: 'img/organizers/trieste_logo.png'
     shape: 'rect'
+    url: 'https://ai-sf.it/en/'
   # - link: "img/organizers/TAUT_logo.png"
   #   shape: "rect"
