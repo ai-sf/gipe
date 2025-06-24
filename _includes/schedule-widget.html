@@ -15,7 +15,7 @@
                 {% if slot.place %}
                 {% if slot.place.url %}
                 <i class="material-icons icon-place">place</i>
-                <a href="{{ slot.place.url }}">{{ slot.place.name }}</a>
+                <a href="{{ slot.place.url | relative_url }}">{{ slot.place.name }}</a>
                 {% else %}
                 <i class="material-icons icon-place">place</i>
                 {{ slot.place.name }}
