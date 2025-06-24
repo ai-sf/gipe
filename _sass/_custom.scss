@@ -48,6 +48,7 @@ ul.dashed > li:before{
 
 .card-action.text-right{
     text-align: right;
+    border-radius: 12px !important;
 }
 
 .card-action.text-right a{
@@ -254,8 +255,8 @@ padding: 20px 0 0 0;
     left:0;
     right:0;
     bottom:0;
-    opacity:0.5;
-    z-index: 60;
+    opacity:0.0;
+    z-index: 50;
     display: none;
 }
 

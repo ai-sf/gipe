@@ -1,19 +1,24 @@
-(function($){
-        $(function(){
-        param = window.location.hash.substr(1)
-        if(param){
-            console.log($("#"+param));
-            $().css("z-index", 50);
-            $("#"+param).css("z-index", 100);
-            $("#overlay").show();
-            $('html, body').animate({
-                scrollTop: ($("#"+param).offset().top-40)
-            },500);
+(function ($) {
+    $(function () {
+        const param = window.location.hash.substring(1);
+        if (param) {
+            const $target = $("#" + param);
 
-            $("#overlay").click(function(){
-                    $("#overlay").hide();
-                    window.history.pushState('page2', 'GIPE - Facilities', '/facilities');
-            });
+            if ($target.length) {
+                // applica la classe di evidenziazione temporanea
+                $target.addClass("highlighted-card");
+
+                // scrolla alla card
+                $("html, body").animate({
+                    scrollTop: $target.offset().top - 40
+                }, 500);
+
+                // rimuove evidenziazione e hash dopo 3 secondi
+                setTimeout(() => {
+                    $target.removeClass("highlighted-card");
+                    history.replaceState(null, null, window.location.pathname);
+                }, 1500);
+            }
         }
-    }); // end of document ready
-})(jQuery); // end of jQuery name space
+    });
+})(jQuery);
