@@ -1,6 +1,6 @@
 - day: TUESDAY 16/09
   slots:
-    - time: "09:00-15:00"
+    - time: "09:00-14:30"
       title: "WELCOME"
       place:
         name: "Department of Physics"
@@ -28,12 +28,12 @@ sponsors."
       speakers: []
 
     - time: "16:30-17:30"
-      title: "Coffee break"
+      title: "COFFEE BREAK"
       place:
         name: "Department of Physics"
         url: "/facilities/#dip"
 
-    - time: "16:30-17:30"
+    - time: "76:30-20:00"
       title: "FREE TIME / POSSIBLE DINNER"
 
     - time: "20:00-23:00"
@@ -51,7 +51,7 @@ sponsors."
       title: "GUIDED TOUR OF THE CITY"
 
     - time: "12:30-14:00"
-      title: "Free lunch"
+      title: "FREE LUNCH"
 
     - time: "14:30-18:30"
       title: "SEMINARS"
@@ -166,7 +166,7 @@ They'll tell us about the history of ICTP, followed by some conferences held by 
 researchers."
 
     - time: "17:00-18:30"
-      title: "Coffee break"
+      title: "COFFEE BREAK"
       place:
         name: "ICTP"
         url: "/facilities/#ictp"
