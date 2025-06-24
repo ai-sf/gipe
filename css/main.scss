@@ -384,3 +384,64 @@ main {
 .collection{
   border-radius: 12px !important;
 }
+
+
+
+.sidenav .logo {
+  // padding: 1rem 0;               // spazio sopra e sotto
+  text-align: center;
+  height: auto;
+  overflow: visible;            // centratura orizzontale
+}
+
+#front-page-logo {
+  // height: 100px;                 // o quanto vuoi
+  max-width: 70%;                // evita che esca orizzontalmente
+  display: block;
+  margin: 0 auto;                // centrato
+}
+
+/* Allunga lo sfondo evidenziato del logo */
+.sidenav .logo a {
+  display: block;
+  height: 100%;
+  padding: 1rem 0;
+}
+
+/* Quando hover o attivo, sfondo pieno */
+.sidenav .logo a:hover,
+.sidenav .logo a:focus {
+  background-color: rgba(176, 133, 235, 0.0); // giallo chiaro esempio
+}
+
+
+
+// /* Impedisci lo scroll orizzontale */
+// body, html {
+//   overflow-x: hidden;
+//   overflow-y: auto;
+// }
+
+// /* Evita contenuti che escono dalla larghezza */
+// .container,
+// .section,
+// main,
+// footer {
+//   max-width: 100vw;
+//   overflow-x: hidden;
+// }
+
+#site-logo {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#banner-description {
+  max-width: 100vw;
+  overflow-x: hidden;
+  text-align: center;
+  padding: 1rem;
+  box-sizing: border-box;
+}

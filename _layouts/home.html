@@ -14,8 +14,9 @@
   </nav>
   {% include mobile-nav.html nav=site.data.menu%}
 
-
-  {{ content }}
+  <main>
+    {{ content }}
+  </main>
   {% include footer.html %}
 
   <script>
@@ -23,7 +24,7 @@
       const faders = document.querySelectorAll('.fade-in');
       const appearOptions = {
         threshold: 0.1,
-        rootMargin: "0px 0px -50px 0px"
+        rootMargin: "0px 0px 0px 0px"
       };
 
       const appearOnScroll = new IntersectionObserver(function (entries, observer) {
