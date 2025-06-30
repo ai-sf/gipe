@@ -22,7 +22,7 @@ cards:
     items:
       - title: 'International Association of Physics Students'
         site: 'https://www.iaps.info/'
-        img: 'img/partners/IAPS/IAPS_LOGO_new.png'
+        img: 'img/partners/IAPS/iaps_new.png'
       - title: 'Physics Department of Trieste'
         site: 'https://df.units.it/en'
         img: 'img/partners/DF/image002.png'
@@ -31,7 +31,7 @@ cards:
         img: 'img/partners/ICTP/ictp_logo.png'
       - title: 'National Institute for Astrophysics'
         site: 'https://www.oats.inaf.it/index.php/en/'
-        img: 'img/partners/INAF/INAF-OATs_colori.png'
+        img: 'img/partners/INAF/inaf_new.png'
       - title: 'National Institute for Nuclear Physics'
         site: 'https://www.ts.infn.it/en/'
         img: 'img/partners/INFN/1_TRIESTE_LOGO_SIGLA.jpg'
@@ -55,7 +55,7 @@ cards:
         img: 'img/partners/ELETTRA/elettra.png'
       - title: 'Collegio Universitario Luciano Fonda'
         site: 'https://www.collegiofonda.it/'
-        img: 'img/partners/FONDA/fonda-ok-ok.jpg'
+        img: 'img/partners/FONDA/fonda_new.jpg'
 
 
   - name: 'Official sponsors:'

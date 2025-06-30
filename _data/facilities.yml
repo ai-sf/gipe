@@ -2,7 +2,7 @@ cards:
   - name: 'Hosts'
     zoom: true
     items:
-      - img: img/facilities/dip_units.png
+      - img: img/facilities/foto_dip.jpg
         title: University of Trieste - Physics Department
         tag: 'dip'
         descr: ''
@@ -24,9 +24,9 @@ cards:
         map: https://maps.app.goo.gl/Dh1BH587zKyBNYyC8
 
       - img: img/facilities/sissa.jpg
-        title: SISSA (Scuola Internazionale Superiore di Studi Avanzati)
+        title: International School for Advanced Studies (SISSA)
         tag: 'sissa'
-        descr: "The SISSA was founded in 1978 and is a scientific center of excellence within the national and international academic scene. SISSA's activities focus on three main areas: Physics, Neuroscience and Mathematics. All the scientific work carried out by SISSA researchers is published regularly in leading international journals with a high impact factor, and frequently in the most prestigious scientific journals such as Nature and Science."
+        descr: "The International School for Advanced Studies (SISSA) was founded in 1978 and is a scientific center of excellence within the national and international academic scene. SISSA's activities focus on three main areas: Physics, Neuroscience and Mathematics. All the scientific work carried out by SISSA researchers is published regularly in leading international journals with a high impact factor, and frequently in the most prestigious scientific journals such as Nature and Science."
         site: https://www.sissa.it/
         map: https://maps.app.goo.gl/h7Be2Mi2NtojNgxF8
 
@@ -53,16 +53,16 @@ cards:
       #   map: https://maps.app.goo.gl/kq95u1NAUaFvmV1S8
 
       - img: img/facilities/inaf_central.jpg
-        title: INAF (National Institute for Astrophysics)
+        title: National Institute for Astrophysics (INAF)
         tag: 'inaf_central'
         descr: ''
         site: https://www.oats.inaf.it/index.php/en/
         map: https://maps.app.goo.gl/oZbL4v8h46Av9cT56
 
       - img: img/facilities/ictpjpg.jpg
-        title: ICTP (International Centre for Theoretical Physics)
+        title: International Centre for Theoretical Physics (ICTP)
         tag: 'ictp'
-        descr: 'Founded in 1964 by the late Nobel Laureate Abdus Salam and by Italian physicist Paolo Budinich, ICTP is a unique institution that explores fundamental scientific questions at the highest level, promotes active engagement with scientists in developing countries, and advances international cooperation through science.'
+        descr: 'Founded in 1964 by the late Nobel Laureate Abdus Salam and by Italian physicist Paolo Budinich, the International Centre for Theoretical Physics (ICTP) is a unique institution that explores fundamental scientific questions at the highest level, promotes active engagement with scientists in developing countries, and advances international cooperation through science.'
         site: https://www.ictp.it/
         map: https://maps.app.goo.gl/wc3wzKTA5rQxrviUA
 

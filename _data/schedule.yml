@@ -22,7 +22,7 @@ ControventoHostel / ICTP Guest House."
       place:
         name: "Department of Physics"
         url: "/facilities/#dip"
-      description: "Institutional greetings from the professors of the Physics Department. They’ll illustrate what it
+      description: "Institutional greetings from the professors of the Physics Department. They'll illustrate what it
 means to do research in Trieste, it will be followed by the presentation of some of our
 sponsors."
       speakers: []
@@ -53,28 +53,58 @@ sponsors."
     - time: "12:30-14:00"
       title: "FREE LUNCH"
 
-    - time: "14:30-18:30"
-      title: "SEMINARS"
+    - time: "14:30-16:30"
+      title: "CONFERENCES"
       place:
         name: "Department of Physics"
         url: "/facilities/#dip"
       descriptions:
-      - "You'll attend 5 conferences of 30 minutes each. The seminars will cover topics such as: the
-history of Quantum Mechanics; Physics of Complex Systems; High Performance Computing
--Big Data - Machine Learning; Interdisciplinary Electronic and Advanced Sensor Laboratory."
-      - "- <strong>14:30-16:30</strong> 3 conferences"
-      - "- <strong>16:30-17:30</strong> coffee break"
-      - "- <strong>17:30-18:30</strong> 2 conferences"
+      # - "You'll attend 3 conferences of 30 minutes each:"
+      - '<em>"A brief overview of merging binary neutron stars"</em> held by Prof. Dr. Luciano Rezzolla;'
+      - 'A conference held by Prof. Laura Gonella;'
+      - 'A conference held by Prof. Alberto Imparato;'
+      # - '<em>""</em> held by Prof. ;'
+      # - '<em>""</em> held by Prof. .'
       note: "Soon you'll find out about our speakers and seminars' abstracts!"
-      # speakers:
-      #   - name: "John Doe" 
-      #     photo: "/img/speakers/coslovich/portrait.jpg"
-      #     description: "Expert in quantum computing"
-      #     url: "/speakers/john-doe.html"
-      #   - name: "Jane Smith"
-      #     photo: "/images/speakers/jane.jpg"
-      #     description: "AI researcher and lecturer"
-      #     url: "/speakers/jane-smith.html"
+      speakers:
+        - name: "Luciano Rezzolla"
+          photo: "/img/speakers/rezolla/35A9435_1_copy.jpg"
+          description: "Chair of Theoretical Astrophysics at the Institute for Theoretical Physics in Frankfurt"
+          # url: "/speakers/john-doe.html"
+        # - name: "Laura Gonella"
+        #   # photo: "/img/speakers/jane.jpg"
+        #   description: "Associate Professor at University of Trieste"
+        #   # url: "/speakers/jane-smith.html"
+        # - name: "Alberto Imparato"
+        #   photo: "/img/speakers/imparato/Imparato_Alberto_DFT_foto.jpg  "
+        #   description: "Associate Professor at University of Trieste"
+        #   # url: "/speakers/jane-smith.html"
+
+    - time: "16:30-17:30"
+      title: "COFFEE BREAK"
+      place:
+        name: "Department of Physics"
+        url: "/facilities/#dip"
+
+    - time: "17:30-18:30"
+      title: "CONFERENCES"
+      place:
+        name: "Department of Physics"
+        url: "/facilities/#dip"
+      descriptions:
+      # - "You'll attend 2 conferences of 30 minutes each:"
+      # - 'A conference held by Prof. Daniele Coslovich;'
+      - '<em>"100 Years of Quantum Mechanics: A History of Understanding What Cannot Be Seen"</em> held by Prof. Angelo Bassi.'
+      note: "Soon you'll find out about our speakers and seminars' abstracts!"
+      speakers:
+        # - name: "John Doe"
+          # photo: "/img/speakers/coslovich/portrait.jpg"
+          # description: "Expert in quantum computing"
+          # url: "/speakers/john-doe.html"
+        - name: "Angelo Bassi"
+          photo: "/img/speakers/bassi/bassi.jpg"
+          description: "Professor of Theoretical Physics at University of Trieste"
+          # url: "/speakers/jane-smith.html"
 
     - time: "18:30-19:30"
       title: "POSSIBLE DINNER"
@@ -83,7 +113,7 @@ history of Quantum Mechanics; Physics of Complex Systems; High Performance Compu
       title: "VISIT OF THE ASTRONOMICAL OBSERVATORY OF TRIESTE"
       place:
         name: "INAF-OATS"
-        url: "/facilities/#inaf" 
+        url: "/facilities/#inaf"
       descriptions:
         - "You will have the opportunity to visit Margherita Hack's Specola, where the famous
 astrophysicist and science popularizer worked. The observatory is located in a rural area of
@@ -96,7 +126,7 @@ accommodation."
       #     description: "Expert in quantum computing"
       #     url: "/speakers/john-doe.html"
       #   - name: "Jane Smith"
-      #     photo: "/images/speakers/jane.jpg"
+      #     photo: "/img/speakers/jane.jpg"
       #     description: "AI researcher and lecturer"
       #     url: "/speakers/jane-smith.html"
 
@@ -111,14 +141,14 @@ accommodation."
 physicist Paolo Budinich."
       descriptions:
         - "The structure of the visit is the following:"
-        - "- Conference held by Dott. Pierluigi Masai"
-        - "- Presentation of SISSA's research branches"
-        - "- Coffee break"
-        - '- “Discussion game” about open acces'
+        - '- Conference held by Dott. Pierluigi Masai: <em>"The Link Between Research and Innovation: A Lesson From the History of Physics"</em>;'
+        - "- Presentation of SISSA's research branches;"
+        - "- Coffee break;"
+        - '- “Discussion game” about open acces.'
       speakers:
-        - name: "Pierluigi Masai"
+        - name: "Pierluigi Masai" 
           photo: "/img/speakers/masai/foto_Masai-683950461.jpg"
-          description: "Researcher at the University of Trieste"
+          description: "PhD student at the University of Trieste"
       #     # url: "/speakers/john-doe.html"
 
     - time: "13:00-14:30"

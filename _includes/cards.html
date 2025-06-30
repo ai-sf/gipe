@@ -14,9 +14,10 @@
         {% for item in cards.items %}
         <div class="col s12 m{{size}} fade-in">
             <div {% if item.tag%} id="{{item.tag}}" {% endif %}
-                class="card sticky-action customh {% if cards.zoom == true %} zoom-image {% endif %}">
+                class="card sticky-action customh {% if cards.size == 'small' %}small-card{% endif %}">
                 <div class="card-image valign-wrapper">
-                    <img src="{{ site.url}}/{{ item.img }}" class="activator">
+                    <img src="{{ site.url}}/{{ item.img }}"
+                        class="activator {% if cards.zoom == true %} zoom-image {% else %}fit-width{% endif %}">
                 </div>
                 <div class="card-content">
                     {% if item.descr %}
