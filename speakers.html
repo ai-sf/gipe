@@ -36,7 +36,7 @@ speakers_js: true
                     {% endfor %}
                 </ul>
                 <!-- <div class="seminar-description">{{ speaker.seminar_description | safe }}</div> -->
-                <a href="/schedule/#speaker-{{ speaker.id }}" class="back-to-schedule-link">
+                <a href="{{ '/schedule/#speaker-' | append: speaker.id | relative_url }}" class="back-to-schedule-link">
                     <i class="material-icons">event</i> Vedi nel programma
                 </a>
             </div>

@@ -39,7 +39,7 @@
             {% if slot.speakers and slot.speakers.size > 0 %}
             <div class="speakers">
                 {% for speaker in slot.speakers %}
-                <a href="/speakers/#{{ speaker.id }}" class="speaker-card-link">
+                <a href="{{ '/speakers/#' | append: speaker.id | relative_url }}" class="speaker-card-link">
                     <div class="speaker-card" id="speaker-{{ speaker.id }}">
                         <div class="speaker-image-container">
                             <img src="{{ speaker.photo | relative_url }}" alt="{{ speaker.name }}"
