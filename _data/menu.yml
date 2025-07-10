@@ -1,6 +1,5 @@
-# - text: 'Home'
-# - text: ''
-  # url: ''
+- text: 'Home'
+  url: ''
 - text: 'Schedule'
   url: 'schedule'
 - text: 'Facilities'
