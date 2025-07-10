@@ -1,16 +1,16 @@
-- text: 'Home'
+# - text: 'Home'
 # - text: ''
-  url: ''
+  # url: ''
 - text: 'Schedule'
   url: 'schedule'
 - text: 'Facilities'
   url: 'facilities'
+- text: "Speakers"
+  url: "speakers"
 - text: 'Registration'
   url: 'registration'
 - text: 'Partners'
   url: 'partners'
-# - text: "Transportation"
-#   url: "transportation"
 - text: 'AISF'
   icon: 'public'
   url: https://ai-sf.it/en/

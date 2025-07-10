@@ -1,10 +1,10 @@
 - day: TUESDAY 16/09
   slots:
-    - time: "09:00-14:30"
+    - time: "13:30-14:30"
       title: "WELCOME"
       place:
-        name: "Department of Physics"
-        url: "/facilities/#dip"
+        name: "University of Trieste, Building D, Room 2A"
+        url: "/facilities/#units"
       description: "Participants will be welcomed with gadgets and helpful information to check-in at the
 ControventoHostel / ICTP Guest House."
       # speakers:
@@ -20,8 +20,8 @@ ControventoHostel / ICTP Guest House."
     - time: "14:30-16:30"
       title: "OPENING CEREMONY"
       place:
-        name: "Department of Physics"
-        url: "/facilities/#dip"
+        name: "University of Trieste, Building D, Room 2A"
+        url: "/facilities/#units"
       description: "Institutional greetings from the professors of the Physics Department. They'll illustrate what it
 means to do research in Trieste, it will be followed by the presentation of some of our
 sponsors."
@@ -30,8 +30,8 @@ sponsors."
     - time: "16:30-17:30"
       title: "COFFEE BREAK"
       place:
-        name: "Department of Physics"
-        url: "/facilities/#dip"
+        name: "University of Trieste, Building D"
+        url: "/facilities/#units"
 
     - time: "17:30-20:00"
       title: "FREE TIME / POSSIBLE DINNER"
@@ -56,46 +56,46 @@ sponsors."
     - time: "14:30-16:30"
       title: "CONFERENCES"
       place:
-        name: "Department of Physics"
-        url: "/facilities/#dip"
+        name: "University of Trieste, Building F, Room A"
+        url: "/facilities/#units"
       descriptions:
       # - "You'll attend 3 conferences of 30 minutes each:"
       - '<em>"A brief overview of merging binary neutron stars"</em> held by Prof. Dr. Luciano Rezzolla;'
       - 'A conference held by Prof. Laura Gonella;'
-      - 'A conference held by Prof. Alberto Imparato;'
+      # - 'A conference held by Prof. Alberto Imparato;'
       # - '<em>""</em> held by Prof. ;'
-      # - '<em>""</em> held by Prof. .'
-      note: "Soon you'll find out about our speakers and seminars' abstracts!"
+      - '<em>"Second law of thermodynamics and Fluctuation Theorems"</em> held by Prof. Alberto Imparato.'
+      # note: "Soon you'll find out about our speakers and seminars' abstracts!"
       speakers:
         - name: "Luciano Rezzolla"
           photo: "/img/speakers/rezolla/35A9435_1_copy.jpg"
-          description: "Chair of Theoretical Astrophysics at the Institute for Theoretical Physics in Frankfurt"
-          # url: "/speakers/john-doe.html"
+          description: "Chair of Theoretical Astrophysics at Goethe University, Frankfurt"
+          id: "rezzolla"
         # - name: "Laura Gonella"
         #   # photo: "/img/speakers/jane.jpg"
         #   description: "Associate Professor at University of Trieste"
         #   # url: "/speakers/jane-smith.html"
-        # - name: "Alberto Imparato"
-        #   photo: "/img/speakers/imparato/Imparato_Alberto_DFT_foto.jpg  "
-        #   description: "Associate Professor at University of Trieste"
-        #   # url: "/speakers/jane-smith.html"
+        - name: "Alberto Imparato"
+          photo: "/img/speakers/imparato/Imparato_Alberto_DFT_foto.jpg  "
+          description: "Professor in Theoretical Physics at University of Trieste"
+          id: "imparato"
 
     - time: "16:30-17:30"
       title: "COFFEE BREAK"
       place:
-        name: "Department of Physics"
-        url: "/facilities/#dip"
+        name: "University of Trieste, Building F"
+        url: "/facilities/#units"
 
     - time: "17:30-18:30"
       title: "CONFERENCES"
       place:
-        name: "Department of Physics"
-        url: "/facilities/#dip"
+        name: "University of Trieste, Building F, Room A"
+        url: "/facilities/#units"
       descriptions:
       # - "You'll attend 2 conferences of 30 minutes each:"
       # - 'A conference held by Prof. Daniele Coslovich;'
       - '<em>"100 Years of Quantum Mechanics: A History of Understanding What Cannot Be Seen"</em> held by Prof. Angelo Bassi.'
-      note: "Soon you'll find out about our speakers and seminars' abstracts!"
+      # note: "Soon you'll find out about our speakers and seminars' abstracts!"
       speakers:
         # - name: "John Doe"
           # photo: "/img/speakers/coslovich/portrait.jpg"
@@ -104,7 +104,7 @@ sponsors."
         - name: "Angelo Bassi"
           photo: "/img/speakers/bassi/bassi.jpg"
           description: "Professor of Theoretical Physics at University of Trieste"
-          # url: "/speakers/jane-smith.html"
+          id: "bassi"
 
     - time: "18:30-19:30"
       title: "POSSIBLE DINNER"
@@ -141,15 +141,15 @@ accommodation."
 physicist Paolo Budinich."
       descriptions:
         - "The structure of the visit is the following:"
-        - '- Conference held by Dott. Pierluigi Masai: <em>"The Link Between Research and Innovation: A Lesson From the History of Physics"</em>;'
+        - '- Conference held by Dr. Pierluigi Masai: <em>"The Link Between Research and Innovation: A Lesson From the History of Physics"</em>;'
         - "- Presentation of SISSA's research branches;"
         - "- Coffee break;"
         - '- “Discussion game” about open acces.'
       speakers:
-        - name: "Pierluigi Masai" 
+        - name: "Pierluigi Masai"
           photo: "/img/speakers/masai/foto_Masai-683950461.jpg"
           description: "PhD student at the University of Trieste"
-      #     # url: "/speakers/john-doe.html"
+          id: "masai"
 
     - time: "13:00-14:30"
       title: "LUNCH AT SISSA"
@@ -215,4 +215,6 @@ researchers."
       place:
         name: "Collegio Fonda"
         url: "/facilities/#fonda"
-      # description: "You will have the chance to discover what kind of research a physicist can do at INAF."
+      descriptions:
+        - "- 10:00-11:30 Round table with students and professors"
+        - "- 11:30-12:00 Closing ceremony"

@@ -8,7 +8,7 @@
         {% endif %}
     <ul class="collection">
         {% for item in section.points %}
-        <li {% if item.url %} {% if item.url contains "http://" %} href="{{ item.url }}" {% else %}
+        <li {% if item.url %} {% if item.url contains "https://" %} href="{{ item.url }}" {% else %}
             href="{{ site.url }}/{{ item.url }}" {% endif %} {% endif %}
             class="collection-item row black-text valign-wrapper" style="display:flex; align-items: center;">
             <div href="#" class="col {% if item.url %} s10 {% else %} s12 {% endif %}">

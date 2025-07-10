@@ -1,0 +1,48 @@
+- id: rezzolla
+  name: Prof. Dr. Luciano Rezzolla
+  photo: /img/speakers/rezolla/35A9435_1_copy.jpg
+  bio:
+    - Luciano Rezzolla is an Italian theoretical astrophysicist. His main research topics are black holes and neutron stars, which he studies both analytically and with advanced numerical simulations. He has written more than 300 articles, a well-known textbook and a public-outreach book. He has received numerous prizes including the Karl Schwarzschild Prize, the Frankfurt Physics Prize, the Golden Seal of the University of Bari, the 2020 Breakthrough Prize for Fundamental Physics, the Einstein Medal, the Bruno Rossi Prize (with the EHT) and the PRACE HPC Excellence Award. He is presently the Andrews Professor in Astronomy at Trinity College, Dublin and the Claus Wilhelm Fueck Professor of Theoretical Astrophysics. He was awarded an ERC Synergy Grant (2014) and an ERC Advanced Grant (2021).
+  seminar_title: A brief overview of merging binary neutron stars
+  seminar_description:
+    - I will discuss how neutron-star binaries represent fantastic tools to explore fundamental aspects of gravitational and particle physics. In particular, I will provide a few examples of the ways in which neutron stars can be used to explore fundamental physics, ranging from their spectral properties, the possibility of phase transition to quark matter, and the amplification of super-strong magnetic fields.
+
+- id: imparato
+  name: Prof. Alberto Imparato
+  photo: /img/speakers/imparato/Imparato_Alberto_DFT_foto.jpg
+  bio:
+    - "Professor in Theoretical Physics at University of Trieste since 2024."
+    - "Research Interests: Nonequilibrium Statistical Mechanics, Quantum Statistical Mechanics, Stochastic and Quantum Thermodynamics."
+  seminar_title: Second law of thermodynamics and Fluctuation Theorems
+  seminar_description:
+    - In microscopic systems in contact with external baths the size of the thermal fluctuations can be as large as the average system energy.
+      Thus, as an example, microscopic engines are not simple rescaled versions of their macroscopic counterparts, and a statistical thermodynamic description is needed, if one wants to characterize properly the relevant thermodynamical quantities.
+    - In this respect stochastic thermodynamics  provides a framework for extending the notions of classical thermodynamic quantities such as work, heat and entropy  to the level of individual trajectories for microscopic systems both at equilibrium and out-of-equilibrium.
+    - In this framework  work, heat and entropy become fluctuating quantities, and the fluctuation theorems describe the constraints on such fluctuations, extending the second law of thermodynamics to microscopic out-of-equilibrium systems.
+    - In my lecture I will review the recent extension of the second law to the microscopic realm and discuss a few examples of microscopic out-of-equilibrium systems.
+
+- id: bassi
+  name: Prof. Angelo Bassi
+  photo: /img/speakers/bassi/bassi.jpg
+  bio:
+    - Angelo Bassi received his PhD in Physics in 2001 from the University of Trieste. Subsequently he was Post-Doctoral Fellow and Visiting Scientist at the ICTP of Trieste, and Marie-Curie Fellow at the Ludwig-Maximillian University of Munich. He is now full professor at the Physics Department of the University of Trieste. His research concerns the foundations of quantum mechanics. He is the author of over 150 publications, invited speaker at over 70 international conferences, organizer of 30 conferences. He has been invited to present his research in the most important institutes worldwide (including MIT, Harvard, Columbia University, NYU, Princeton). He is the winner and coordinator of numerous national and international research projects, raising over 7 M€. He was interviewed by New York Time Magazine with a dedicated profile (June 2020), and by several other international scientific magazines. He is collaborator of La Repubblica, for which he writes about Quantum Physics and Quantum Technologies.
+  seminar_title: "100 Years of Quantum Mechanics: A History of Understanding What Cannot Be Seen"
+  seminar_description:
+    - This talk traces the extraordinary journey of quantum mechanics over the past century, from the earliest atomic models to the profound conceptual revolutions that reshaped our understanding of reality. Beginning with Dalton's atomic hypothesis and culminating in Schrödinger's wave mechanics, the presentation highlights the progressive realization that matter exhibits both particle and wave-like behaviors. It then explores the deep philosophical and physical implications of quantum theory, focusing on the Einstein-Podolsky-Rosen paradox and Bell's theorem, culminating in the experimental confirmation of quantum nonlocality. The final part of the talk addresses modern quantum technologies—including quantum computing, communication, and sensing—emphasizing how the fragility of quantum states is being harnessed for transformative technological applications. As we celebrate the International Year of Quantum in 2025, this retrospective not only honors a century of discovery but also looks ahead to a quantum-enabled future.
+
+
+- id: masai
+  name: Dr. Pierluigi Masai
+  photo: /img/speakers/masai/foto_Masai-683950461.jpg
+  bio: PhD student at the University of Trieste.
+  # seminar_title: L'universo quantistico
+  seminar_description:
+    - "Dott. Pierluigi Masai will talk about his own educational journey and the
+testimonies of the people he has met, using them as a starting point to briefly
+illustrate the richness of the Trieste ecosystem, outlining its historical
+development. The talk aims to encourage critical reflection on the dynamics of
+the research world, highlighting the importance of recognizing the structural
+elements that shape, constrain, and enable it. By acknowledging the role of
+science in society, the session seeks to spark interest in the foundations and
+ethics of research. In particular, it will emphasize the importance of studying the
+history of research and the need to deconstruct its myths."

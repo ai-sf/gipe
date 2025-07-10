@@ -1,0 +1,340 @@
+
+// Schedule widget styles
+.schedule-container {
+  max-width: 900px; // pi   ù largo su desktop
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: 'Roboto', sans-serif;
+  color: $color-type2;
+}
+
+// .schedule-card {
+//   background: #fff;
+//   border-radius: 12px;
+//   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+//   margin-bottom: 2rem;
+//   padding: 1rem 2rem;
+//   border: 1px solid #ddd;
+//   display: flex;
+//   flex-direction: column;
+// }
+
+.schedule-card {
+  margin: 0 auto 40px auto; // margine esterno per separare le giornate
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: white;
+
+  // padding interno solo per il contenuto, NON per le decorazioni
+  .schedule-slot {
+    padding: 6px 24px 6px 24px; // top, right, bottom, left
+    position: relative;
+  }
+}
+
+.day-header {
+  font-size: 1.8rem;     // dimensione precedente (non troppo grande)
+  font-weight: 700;
+  color: $color-type1;
+  padding-bottom: 0.7rem;
+  border-bottom: 3px solid $color-type1;
+  margin-bottom: 1.5rem;
+}
+
+/* distanza dal bordo superiore (day‑decorator‑top) al primo slot */
+.day-decorator-top + .schedule-slot {
+  margin-top: 1.2rem;    /* regola questo valore a piacere */
+  // margin-bottom: 0.7rem;
+}
+
+// .schedule-slot {
+
+//   border-bottom: none; // tolgo la linea intera sotto
+//   margin-bottom: none;
+//   // padding-bottom: 1.8rem;
+//   position: relative; // per la linea colorata piccola
+// }
+
+// .schedule-slot::after {
+//   content: "";
+//   position: absolute;
+//   bottom: 0px; // distanzia la riga un po' sotto lo slot
+//   width: 15%;       // 15% della larghezza
+//   height: 2.5px;      // linea spessa 3px
+//   background-color: $color-type1;
+//   border-radius: 2px;
+//   left: 24px;
+//   pointer-events: none;
+// }
+
+// .schedule-slot.last-slot::after {
+//   display: none;
+// }
+
+.slot-line {
+  width: 15%;              /* lunghezza fissa */
+  height: 0.15rem;             /* spessore fisso */
+  background-color: $color-type1;
+  border-radius: 2px;       /* smussa se vuoi */
+  margin: 0.4rem 0;  /* spazio sopra più piccolo*/
+  clear: both;             /* per essere sicuri che stia sotto ogni float/flex */
+}
+
+.slot-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #555;
+}
+
+.slot-meta {
+  font-size: 1rem;
+  color: $color-type2;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.slot-meta a {
+  color: $color-type2;
+  text-decoration: none;
+}
+
+.slot-meta a:hover {
+  text-decoration: underline;
+}
+
+.slot-description {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.slot-descriptions {
+  margin-top: 0.5rem;
+  list-style-type: none;
+  padding-left: 0;
+  color: #444;
+
+  li {
+    margin-bottom: 0.3rem;
+    color: #444;
+    font-size: 1rem;
+  }
+}
+
+.note-description {
+    background-color: rgba(176, 133, 235, 0.2);
+    border-left: 4px solid $color-type2;
+    padding: 0.5rem;
+    border-radius: 8px;
+    // font-weight: 500;
+    margin-top: 0.5rem;
+    list-style-type: none;
+    padding-left: 10px;
+    color: #555;
+    // margin-bottom: 0.25rem;
+    line-height: 1.4;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+.slot-description, .slot-descriptions, .note-description {
+  /* ogni volta che c’è un <strong> dentro .slot-description */
+  strong {
+    font-weight: bold !important;
+  }
+  /* e ogni <u> */
+  u {
+    text-decoration: underline !important;
+  }
+}
+
+
+/* Icone */
+.material-icons.icon-time,
+.material-icons.icon-place {
+  font-size: 1.3rem;
+  color: $color-type2;
+}
+
+/* Speaker cards container */
+.speakers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  padding-bottom: 0.8rem;  /* ENOUGH to push la linea sotto */
+}
+
+/* Singolo speaker card */
+.speaker-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.speaker-card {
+  display: flex;
+  background: white;
+  border: 1.5px solid $color-type1;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(176, 133, 235, 0.15);
+  transition: box-shadow 0.4s ease;
+  padding: 0.7rem 1rem;
+  cursor: pointer;
+  align-items: center;
+  // scroll-margin-top: 80px;
+}
+
+.speaker-card:hover {
+  box-shadow: 0 4px 20px rgba(176, 133, 235, 0.4);
+}
+
+/* Contenitore immagine per bordi smussati */
+.speaker-image-container {
+  flex-shrink: 0;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  border-radius: 16px;
+  margin-right: 1rem;
+  background: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.speaker-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 16px;
+}
+
+.speaker-info {
+  flex-grow: 1;
+}
+
+.speaker-name {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+  color: #555;
+}
+
+.speaker-description {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+// /* Footer day */
+// .day-footer {
+//   border-top: 3px solid $color-type1;
+//   margin-top: 1.5rem;
+//   padding-top: 0.5rem;
+// }
+
+/* Responsive più largo su desktop */
+@media (min-width: 1024px) {
+  .schedule-container {
+    max-width: 1100px;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
+// Decorazioni top e bottom
+
+.day-decorator-top,
+.day-decorator-bottom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $color-type1;
+  color: white;
+  margin: 0; // toglie ogni spazio
+  padding: 6px;
+}
+
+.day-decorator-top {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+
+  .material-icons {
+    margin-right: 8px;
+  }
+
+  .day-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+}
+
+.day-decorator-bottom {
+  height: 0px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  // background-color: lighten($color-type1, 5%);
+}
+
+
+/* layout orario e luogo */
+.slot-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+/* blocco orario */
+.slot-time {
+  white-space: nowrap;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+/* blocco luogo */
+.slot-place {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+/* assicurati che le icone restino allineate */
+.slot-meta .material-icons {
+  font-size: 1rem;
+  vertical-align: middle;
+}
+
+.speaker-card.highlighted-speaker {
+  box-shadow: 0 4px 20px rgba(176, 133, 235, 0.4);
+  scroll-margin-top: 100px;
+  // border: 1.5px solid $color-type1;
+  // border: none;
+  // outline:none;
+  // border-radius: 12px;
+  transition: box-shadow 0.4s ease;
+}

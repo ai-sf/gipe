@@ -10,19 +10,19 @@
         {% assign is_last = forloop.last %}
         <div class="schedule-slot{% if is_last %} last-slot{% endif %}">
             <div class="slot-meta">
-                <i class="material-icons icon-time">access_time</i>
-                {{ slot.time }}
+                <span class="slot-time">
+                    <i class="material-icons icon-time">access_time</i> {{ slot.time }}
+                </span>
                 {% if slot.place %}
-                {% if slot.place.url %}
-                <i class="material-icons icon-place">place</i>
-                <a href="{{ slot.place.url | relative_url }}">{{ slot.place.name }}</a>
-                {% else %}
-                <i class="material-icons icon-place">place</i>
-                {{ slot.place.name }}
+                <span class="slot-place">
+                    <i class="material-icons icon-place">place</i>
+                    {% if slot.place.url %}
+                    <a href="{{ slot.place.url | relative_url }}">{{ slot.place.name }}</a>
+                    {% else %}
+                    {{ slot.place.name }}
+                    {% endif %}
+                </span>
                 {% endif %}
-                {% endif %}
-                <!-- <i class="material-icons icon-place">place</i>
-                <a href="{{site.url}}{{ slot.place.url }}">{{ slot.place.name }}</a> -->
             </div>
             <div class="slot-title">{{ slot.title }}</div>
             <div class="slot-description">{{ slot.description | safe}}</div>
@@ -39,8 +39,8 @@
             {% if slot.speakers and slot.speakers.size > 0 %}
             <div class="speakers">
                 {% for speaker in slot.speakers %}
-                <a href="{{ speaker.url }}" class="speaker-card-link">
-                    <div class="speaker-card">
+                <a href="/speakers/#{{ speaker.id }}" class="speaker-card-link">
+                    <div class="speaker-card" id="speaker-{{ speaker.id }}">
                         <div class="speaker-image-container">
                             <img src="{{ speaker.photo | relative_url }}" alt="{{ speaker.name }}"
                                 class="speaker-image" />

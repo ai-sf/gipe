@@ -1,0 +1,155 @@
+.speakers-page {
+  // overflow: hidden;
+  margin: 0 1rem 2rem 1rem;
+}
+
+.speaker-full-card {
+  border: 1.5px solid $color-type1;
+  margin-bottom: 2rem !important;
+  background: white;
+  border-radius: 12px;
+  // padding: 0 0 1rem 0;
+  box-shadow: 0 2px 8px rgba(176, 133, 235, 0.15) !important;
+  // box-shadow: none;
+  // overflow: hidden;
+  scroll-margin-top: 120px;
+  transition: box-shadow 0.4s ease;
+
+  padding: 2.5rem 1.5rem 1.5rem 2rem;
+
+  @media (min-width: 768px) {
+    padding: 2rem 2.5rem 2rem 2.5rem;
+  }
+}
+
+/* Evidenziazione temporanea da anchor */
+.speaker-full-card.highlighted {
+  box-shadow: 0 6px 30px rgba(176, 133, 235, 0.4) !important;
+}
+
+/* Contenuto: riga flessibile */
+.speaker-full-card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  // padding: 1.5rem;
+}
+
+/* Immagine */
+.speaker-image-container img {
+  width: 100%;
+  max-width: 200px;
+  aspect-ratio: 1 / 1;
+  border-radius: 12px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+.bio-section {
+  flex: 1;
+  text-align: center;
+  @media (min-width: 768px) {
+    text-align: left;
+  }
+}
+
+/* Titoli e paragrafi */
+.speaker-name {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.speaker-bio,
+.seminar-description {
+  font-size: 0.95rem;
+  color: #444;
+  @media (min-width: 768px) {
+    text-align: justify;         /* rende il testo giustificato */
+    text-justify: inter-word;     /* migliora la spaziatura tra le parole */
+    hyphens: auto;               /* permette la sillabazione (se supportata) */
+  }
+}
+
+.seminar-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #333;
+  font-style: italic;
+  margin-top: 1rem;
+  // margin-bottom: 0.25rem;
+}
+
+/* Linea separatrice */
+.section-separator {
+  width: 15%;              /* lunghezza fissa */
+  height: 0.15rem;             /* spessore fisso */
+  background-color: $color-type1;
+  margin: 1.5rem 1rem 1rem 0rem;
+  border-radius: 2px;
+}
+
+/* Layout alternato su desktop */
+@media screen and (min-width: 768px) {
+  .speaker-full-card-content {
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    // padding: 2.5rem 2.5rem 0 2.5rem;
+  }
+
+  .speaker-full-card.reverse .speaker-full-card-content {
+    flex-direction: row-reverse;
+  }
+
+  .speaker-image-container img {
+    margin: 0;
+  }
+
+  .speaker-full-info {
+    flex: 1;
+    padding: 0 2rem;
+  }
+}
+
+.back-to-schedule-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: $color-type1;
+  text-decoration: none;
+  margin-top: 1rem;
+  transition: color 0.2s;
+
+  i.material-icons {
+    font-size: 1rem;
+  }
+
+  &:hover {
+    color: darken($color-type1, 10%);
+  }
+}
+
+.bio-section {
+  flex: 1;
+  text-align: center;
+
+  @media screen and (min-width: 768px) {
+    text-align: left;
+  }
+}
+
+.speaker-image-container {
+  flex-shrink: 0;
+}
+
+// .seminar-full-card-content {
+//   padding: 1.5rem;
+
+//   @media (min-width: 768px) {
+//     padding: 1rem 2.5rem 2rem 2.5rem;
+//   }
+// }

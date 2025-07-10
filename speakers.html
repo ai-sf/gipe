@@ -1,0 +1,46 @@
+---
+layout: page
+title: Speakers
+permalink: /speakers/
+speakers_stylesheet: true
+speakers_js: true
+---
+
+<div class="speakers-page">
+    {% for speaker in site.data.speakers %}
+    {% assign mod = forloop.index0 | modulo: 2 %}
+    <div class="speaker-full-card card fade-in{% if mod == 1 %} reverse{% endif %}" id="{{ speaker.id }}">
+        <div class="speaker-full-card-content">
+            <div class="speaker-image-container">
+                <img src="{{ speaker.photo | relative_url }}" alt="{{ speaker.name }}" class="speaker-image">
+            </div>
+
+            <div class="bio-section">
+                <h5 class="speaker-name">{{ speaker.name }}</h5>
+                <ul class="speaker-bio">
+                    {% for bio in speaker.bio %}
+                    <li>{{ bio }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <div class="seminar-full-card-content">
+
+            <div class="section-separator"></div>
+
+            <div class="seminar-section">
+                <h6 class="seminar-title">{{ speaker.seminar_title }}</h6>
+                <ul class="seminar-description">
+                    {% for desc in speaker.seminar_description %}
+                    <li>{{ desc | safe}}</li>
+                    {% endfor %}
+                </ul>
+                <!-- <div class="seminar-description">{{ speaker.seminar_description | safe }}</div> -->
+                <a href="/schedule/#speaker-{{ speaker.id }}" class="back-to-schedule-link">
+                    <i class="material-icons">event</i> Vedi nel programma
+                </a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>

@@ -1,0 +1,7 @@
+---
+---
+
+$color-type1: {{ site.data.generic.color1 }};
+$color-type2: {{ site.data.generic.color2 }};
+
+@import "../_sass/_speakers";

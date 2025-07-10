@@ -1,3 +1,12 @@
+<script src="{{ '/js/fade-in.js' | relative_url }}"></script>
+
+{% if page.speakers_js %}
+<script src="{{ '/js/speakers.js' | relative_url }}"></script>
+{% endif %}
+
+{% if page.schedule_js %}
+<script src="{{ '/js/schedule.js' | relative_url }}"></script>
+{% endif %}
 
 <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.2.4.js"></script>
 <script src="{{ site.url }}/js/materialize.min.js"></script>

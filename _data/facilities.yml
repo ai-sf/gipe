@@ -2,11 +2,11 @@ cards:
   - name: 'Hosts'
     zoom: true
     items:
-      - img: img/facilities/foto_dip.jpg
-        title: University of Trieste - Physics Department
-        tag: 'dip'
+      - img: img/facilities/trieste-3380713166.jpg
+        title: University of Trieste
+        tag: 'units'
         descr: ''
-        site: https://df.units.it/en
+        site: https://portale.units.it/en
         map: https://maps.app.goo.gl/rtcd5ufs2pXyiAic7
 
       - img: img/facilities/fonda.jpg
