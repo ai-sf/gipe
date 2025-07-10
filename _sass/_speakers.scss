@@ -146,10 +146,9 @@
   flex-shrink: 0;
 }
 
-// .seminar-full-card-content {
-//   padding: 1.5rem;
-
-//   @media (min-width: 768px) {
-//     padding: 1rem 2.5rem 2rem 2.5rem;
-//   }
-// }
+.schedule-link-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  // margin-top: 1rem;
+  padding-right: 0.5rem;
+}
