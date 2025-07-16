@@ -25,7 +25,6 @@ ControventoHostel / ICTP Guest House."
       description: "Institutional greetings from the professors of the Physics Department. They'll illustrate what it
 means to do research in Trieste, it will be followed by the presentation of some of our
 sponsors."
-      speakers: []
 
     - time: "16:30-17:30"
       title: "COFFEE BREAK"
@@ -37,13 +36,13 @@ sponsors."
       title: "FREE TIME / POSSIBLE DINNER"
 
     - time: "20:00-23:00"
-      title: "SOCIAL ACTIVITY WITH STUDENTS FROM COLLEGIO FONDA"
+      title: "GAME NIGHT"
       place:
-        name: "Collegio Fonda"
+        name: "Collegio Universitario Luciano Fonda (Via Fabio Severo, 40)"
         url: "/facilities/#fonda"
-#       description: "Institutional greetings from the professors of the Physics Department. They’ll illustrate what it
-# means to do research in Trieste, it will be followed by the presentation of some of our
-# sponsors."
+      descriptions:
+      - "Social activity with students from Collegio Fonda: they will talk about physicist Luciano Fonda."
+      - "The evening will proceed with board games (quantum games) and some fun quizzes about physics and Trieste!"
 
 - day: WEDNESDAY 17/09
   slots:
@@ -54,27 +53,27 @@ sponsors."
       title: "FREE LUNCH"
 
     - time: "14:30-16:30"
-      title: "CONFERENCES"
+      title: "SEMINARS"
       place:
         name: "University of Trieste, Building F, Room A"
         url: "/facilities/#units"
-      descriptions:
+      substeps:
       # - "You'll attend 3 conferences of 30 minutes each:"
-      - '<em>"A brief overview of merging binary neutron stars"</em> held by Prof. Dr. Luciano Rezzolla;'
-      - 'A conference held by Prof. Laura Gonella;'
+        - title: '<em>"A brief overview of merging binary neutron stars"</em> held by Prof. Dr. Luciano Rezzolla;'
+      # - '- A conference held by Prof. Laura Gonella;'
       # - 'A conference held by Prof. Alberto Imparato;'
-      # - '<em>""</em> held by Prof. ;'
-      - '<em>"Second law of thermodynamics and Fluctuation Theorems"</em> held by Prof. Alberto Imparato.'
+        - title: '<em>"Solid-state detectors for experimental physics"</em> held by Prof. Laura Gonella;'
+        - title: '<em>"Second law of thermodynamics and Fluctuation Theorems"</em> held by Prof. Alberto Imparato.'
       # note: "Soon you'll find out about our speakers and seminars' abstracts!"
       speakers:
         - name: "Luciano Rezzolla"
           photo: "/img/speakers/rezolla/35A9435_1_copy.jpg"
           description: "Chair of Theoretical Astrophysics at Goethe University, Frankfurt"
           id: "rezzolla"
-        # - name: "Laura Gonella"
-        #   # photo: "/img/speakers/jane.jpg"
-        #   description: "Associate Professor at University of Trieste"
-        #   # url: "/speakers/jane-smith.html"
+        - name: "Laura Gonella"
+          # photo: "/img/speakers/jane.jpg"
+          description: "Professor in Nuclear Physics at University of Trieste since 2024"
+          id: "gonella"
         - name: "Alberto Imparato"
           photo: "/img/speakers/imparato/Imparato_Alberto_DFT_foto.jpg  "
           description: "Professor in Theoretical Physics at University of Trieste"
@@ -87,14 +86,14 @@ sponsors."
         url: "/facilities/#units"
 
     - time: "17:30-18:30"
-      title: "CONFERENCES"
+      title: "SEMINARS"
       place:
         name: "University of Trieste, Building F, Room A"
         url: "/facilities/#units"
-      descriptions:
+      substeps:
       # - "You'll attend 2 conferences of 30 minutes each:"
       # - 'A conference held by Prof. Daniele Coslovich;'
-      - '<em>"100 Years of Quantum Mechanics: A History of Understanding What Cannot Be Seen"</em> held by Prof. Angelo Bassi.'
+        - title: '<em>"100 Years of Quantum Mechanics: A History of Understanding What Cannot Be Seen"</em> held by Prof. Angelo Bassi.'
       # note: "Soon you'll find out about our speakers and seminars' abstracts!"
       speakers:
         # - name: "John Doe"
@@ -106,20 +105,19 @@ sponsors."
           description: "Professor of Theoretical Physics at University of Trieste"
           id: "bassi"
 
-    - time: "18:30-19:30"
+    - time: "18:30-20:00"
       title: "POSSIBLE DINNER"
 
-    - time: "19:30-23:00"
+    - time: "20:00-22:30"
       title: "VISIT OF THE ASTRONOMICAL OBSERVATORY OF TRIESTE"
       place:
-        name: "INAF-OATS"
+        name: "INAF-OATS (SS14 Basovizza, 302)"
         url: "/facilities/#inaf"
       descriptions:
         - "You will have the opportunity to visit Margherita Hack's Specola, where the famous
 astrophysicist and science popularizer worked. The observatory is located in a rural area of
 Trieste (Basovizza), where light pollution is lower, allowing for better star observation."
-      note: "<strong><u>Note:</u></strong>  Private transportation to and from OATS; the return bus will take you directly to your
-accommodation."
+      note: "Private transportation provided, it will also take you back to your accommodation."
       # speakers:
       #   - name: "John Doe"
       #     photo: "/img/speakers/coslovich/portrait.jpg"
@@ -133,43 +131,45 @@ accommodation."
 - day: THURSDAY 18/09
   slots:
     - time: "9:00-12:00"
-      title: "VISITING SISSA" # TODO: da finire
+      title: "VISITING SISSA"
       place:
-        name: "SISSA"
+        name: "SISSA (Via Bonomea, 265)"
         url: "/facilities/#sissa"
       description: "You will have the chance to visit one of the research centers founded by the Triestin
 physicist Paolo Budinich."
       descriptions:
         - "The structure of the visit is the following:"
-        - '- Conference held by Dr. Pierluigi Masai: <em>"The Link Between Research and Innovation: A Lesson From the History of Physics"</em>;'
-        - "- Presentation of SISSA's research branches;"
-        - "- Coffee break;"
-        - '- Discussion Game - <em>"How open is open access?"</em>'
-        - '<p style="margin: 0 1rem 0 1rem; font-size: 0.95rem">During this interactive session, participants will explore their opinions, engage in discussions, and make collective decisions on open access publishing.</p>'
-        - '<p style="margin: 0 1rem 0 1rem; font-size: 0.95rem">This game has been developed by SISSA Medialab, the SISSA in house company active in scholarly publishing and science communication.</p>'
-      speakers:
-        - name: "Pierluigi Masai"
-          photo: "/img/speakers/masai/foto_Masai-683950461.jpg"
-          description: "PhD student at the University of Trieste"
-          id: "masai"
+      substeps:
+        - title: 'Discussion Game: <em>"How open is open access?"</em>'
+          description: '<em>During this interactive session, participants will explore their opinions, engage in discussions, and make collective decisions on open access publishing. This game has been developed by SISSA Medialab, the SISSA in house company active in scholarly publishing and science communication.</em>'
+        # - '<p style="margin: 0 1rem 0 1rem; font-size: 0.95rem; text-align: justify"><em></em></p>'
+        - title: "Coffee break;"
+        - title: "Presentation of SISSA's research branches."
+      note: "Private transportation provided."
 
-    - time: "12:00-13:30"
+    - time: "13:00-13:30"
       title: "LUNCH AT SISSA"
       place:
-        name: "SISSA"
+        name: "SISSA (Via Bonomea, 265)"
         url: "/facilities/#sissa"
 
-    - time: "14:00-19:00"
-      title: "VISITING LABORATORIES"
+    - time: "14:00-16:00"
+      title: "VISITING INFN AND AREA SCIENCE PARK"
       place:
-        name: "Padriciano/Basovizza"
-        # url: "/facilities/#elettra"
-      description: "Participants will have the opportunity to visit the laboratories of AREA Science Park, Elettra
-Sincrotrone, CNR and INFN."
-      note: "More details will be available soon!"
+        name: "Padriciano"
+        url: "/facilities/#area"
+      note: "Private transportation provided."
+      # description: "Participants will have the opportunity to visit the laboratories of AREA Science Park, Elettra Sincrotrone, CNR and INFN."
+    - time: "16:45-18:45"
+      title: "VISITING ELETTRA SINCROTRONE AND CNR"
+      place:
+        name: "Basovizza"
+        url: "/facilities/#elettra"
+      note: "Private transportation provided."
 
-    - time: "19:00-23:00"
-      title: "FREE EVENING"
+    - time: "19:00-20:00"
+      title: "BUFFET"
+      note: "Private transportation provided to go to each accommodation."
 
 
 - day: FRIDAY 19/09
@@ -177,14 +177,14 @@ Sincrotrone, CNR and INFN."
     - time: "9:00-11:30"
       title: "CONFERENCE"
       place:
-        name: "INAF-OATS"
+        name: "INAF-OATS (Via Giambattista Tiepolo, 11)"
         url: "/facilities/#inaf_central"
       description: "You will have the chance to discover what kind of research a physicist can do at INAF."
 
     - time: "12:30-14:00"
       title: "LUNCH AT ICTP"
       place:
-        name: "ICTP"
+        name: "ICTP (Str. Costiera, 11)"
         url: "/facilities/#ictp"
 
     - time: "14:00-17:00"
@@ -192,12 +192,20 @@ Sincrotrone, CNR and INFN."
       place:
         name: "ICTP"
         url: "/facilities/#ictp"
-      description: "You will have the opportunity to visit the International Centre for Theoretical Physics,
-founded by Paolo Budinich and Abdus Salam in 1964.
-They'll tell us about the history of ICTP, followed by some conferences held by ICTP's
-researchers."
+      descriptions:
+        - "You will have the opportunity to visit the International Centre for Theoretical Physics, founded by Paolo Budinich and Abdus Salam in 1964."
+        - "The structure of the visit is the following:"
+      substeps:
+        - title: "14:00-15:00 Presentation of ICTP History;"
+        - title: "15:00-16:00 Seminar;"
+        - title: '16:00-16:30 <em>"The Link Between Research and Innovation: A Lesson From the History of Physics"</em> by PhD student Pierluigi Masai.'
+      speakers:
+        - name: "Pierluigi Masai"
+          photo: "/img/speakers/masai/foto_Masai-683950461.jpg"
+          description: "PhD student at the University of Trieste"
+          id: "masai"
 
-    - time: "17:00-18:30"
+    - time: "16:30-18:30"
       title: "COFFEE BREAK"
       place:
         name: "ICTP"
@@ -206,7 +214,7 @@ researchers."
 
     - time: "20:30-23:00"
       place:
-        name: "Caffè degli Specchi"
+        name: "Caffè degli Specchi (Piazza Unità d'Italia, 7)"
       title: "SOCIAL DINNER"
 
 
@@ -215,8 +223,8 @@ researchers."
     - time: "10:00-12:00"
       title: "CLOSING CEREMONY"
       place:
-        name: "Collegio Fonda"
+        name: "Collegio Universitario Luciano Fonda (Via Fabio Severo, 40)"
         url: "/facilities/#fonda"
-      descriptions:
-        - "- 10:00-12:30 Round table with students and professors"
-        - "- 12:30-13:00 Closing ceremony"
+      substeps:
+        - title: "10:00-12:30 Round table with students and professors"
+        - title: "12:30-13:00 Closing ceremony"

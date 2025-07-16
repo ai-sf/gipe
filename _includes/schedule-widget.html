@@ -33,6 +33,25 @@
                 {% endfor %}
             </ul>
             {% endif %}
+            {% if slot.substeps %}
+            <ul class="slot-substeps">
+                {% for step in slot.substeps %}
+                <li class="substep">
+                    <div class="substep-icon-wrapper">
+                        <i class="material-icons">arrow_right</i>
+                    </div>
+                    <div class="substep-text">
+                        <div class="substep-title-row">
+                            <span class="substep-title">{{ step.title }}</span>
+                        </div>
+                        {% if step.description %}
+                        <div class="substep-description">{{ step.description }}</div>
+                        {% endif %}
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+            {% endif %}
             {% if slot.note %}
             <div class="note-description">{{ slot.note | safe}}</div>
             {% endif %}
@@ -41,10 +60,12 @@
                 {% for speaker in slot.speakers %}
                 <a href="{{ '/speakers/#' | append: speaker.id | relative_url }}" class="speaker-card-link">
                     <div class="speaker-card" id="speaker-{{ speaker.id }}">
+                        {% if speaker.photo %}
                         <div class="speaker-image-container">
                             <img src="{{ speaker.photo | relative_url }}" alt="{{ speaker.name }}"
                                 class="speaker-image" />
                         </div>
+                        {% endif %}
                         <div class="speaker-info">
                             <div class="speaker-name">{{ speaker.name }}</div>
                             <div class="speaker-description">{{ speaker.description }}</div>

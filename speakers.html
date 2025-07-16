@@ -11,10 +11,11 @@ speakers_js: true
     {% assign mod = forloop.index0 | modulo: 2 %}
     <div class="speaker-full-card card fade-in{% if mod == 1 %} reverse{% endif %}" id="{{ speaker.id }}">
         <div class="speaker-full-card-content">
+            {% if speaker.photo %}
             <div class="speaker-image-container">
                 <img src="{{ speaker.photo | relative_url }}" alt="{{ speaker.name }}" class="speaker-image">
             </div>
-
+            {% endif %}
             <div class="bio-section">
                 <h5 class="speaker-name">{{ speaker.name }}</h5>
                 <ul class="speaker-bio">

@@ -7,6 +7,16 @@
   seminar_description:
     - I will discuss how neutron-star binaries represent fantastic tools to explore fundamental aspects of gravitational and particle physics. In particular, I will provide a few examples of the ways in which neutron stars can be used to explore fundamental physics, ranging from their spectral properties, the possibility of phase transition to quark matter, and the amplification of super-strong magnetic fields.
 
+- id: gonella
+  name: Prof. Laura Gonella
+  # photo: /img/speakers/imparato/Imparato_Alberto_DFT_foto.jpg
+  bio:
+    - "Professor in Nuclear Physics at University of Trieste since 2024."
+    - "Research Interests: Silicon sensors, microelectronics, radiation-hard CMOS technologies."
+  seminar_title:  Solid-state detectors for experimental physics
+  seminar_description:
+    - The talk will introduce the role of solid-state detectors in High-Energy Physics (HEP) experiments and neighbouring scientific fields. The key components and technological challenges involved in developing silicon detectors for such applications will be discussed, with focus on the tracking detectors used in HEP experiments. Examples will include innovative developments for next-generation, high-precision experiments—such as the ALICE upgrades and the ePIC detector. Finally, the talk will present the advanced facilities being established at the Department of Physics of the University of Trieste, part of the Department of Excellence initiative, which aim to enhance interdisciplinary detector development, and support advanced teaching in the field of instrumentation in the various curricula of the Master's Degree in Physics.
+
 - id: imparato
   name: Prof. Alberto Imparato
   photo: /img/speakers/imparato/Imparato_Alberto_DFT_foto.jpg

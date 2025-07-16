@@ -1,9 +1,9 @@
 
 // Schedule widget styles
 .schedule-container {
-  max-width: 900px; // pi   ù largo su desktop
+  max-width: 900px; // piu largo su desktop
   margin: 0 auto;
-  padding: 1rem;
+  padding: 1rem 0rem 1rem 0rem;
   font-family: 'Roboto', sans-serif;
   color: $color-type2;
 }
@@ -20,9 +20,9 @@
 // }
 
 .schedule-card {
-  margin: 0 auto 40px auto; // margine esterno per separare le giornate
+  margin: 0rem 0rem 40px 0rem; // margine esterno per separare le giornate
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0rem 4px 12px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   background-color: white;
 
@@ -137,7 +137,8 @@
     margin-top: 0.5rem;
     list-style-type: none;
     padding-left: 10px;
-    color: #555;
+    padding-right: 10px;
+    color: #444;
     // margin-bottom: 0.25rem;
     line-height: 1.4;
     font-size: 1rem;
@@ -337,4 +338,52 @@
   // outline:none;
   // border-radius: 12px;
   transition: box-shadow 0.4s ease;
+}
+
+.slot-substeps {
+  margin: 0rem 0 1rem 0rem;
+  padding: 0 0.5rem 0 0.5rem;
+  list-style: none;
+
+  .substep {
+    display: flex;
+    gap: 0.25rem;
+    margin-bottom: 0.5rem;
+
+    .substep-icon-wrapper {
+      display: flex;
+      align-items: start;
+      flex-shrink: 0;
+
+      i.material-icons {
+        font-size: 1.4rem;
+        color: $color-type1;
+        line-height: 1;
+      }
+    }
+
+    .substep-text {
+      display: flex;
+      flex-direction: column;
+
+      .substep-title-row {
+        display: flex;
+        align-items: center;
+      }
+
+      .substep-title {
+        // font-weight: 500;
+        font-size: 1rem;
+        color: #444;
+      }
+
+      .substep-description {
+        font-size: 1rem;
+        color: #444;
+        // font-weight: 400;
+        margin-top: 0.2rem;
+        line-height: 1.4;
+      }
+    }
+  }
 }
