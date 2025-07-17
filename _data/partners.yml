@@ -11,6 +11,9 @@ cards:
       - title: 'University of Trieste'
         site: 'https://portale.units.it/en'
         img: 'img/patrocini/UNITS/logo_units.png'
+      - title: 'National Research Council'
+        site: 'https://www.cnr.it/en'
+        img: 'img/partners/CNR/cnr_logo.png'
       - title: 'Italian Physics Society'
         site: 'https://en.sif.it/'
         img: 'img/patrocini/SIF/sif_logo.png'
@@ -47,15 +50,21 @@ cards:
       - title: 'Istituto Italiano di Studi Germanici'
         site: 'https://www.studigermanici.it/'
         img: 'img/partners/IISG/iisg_logo.png'
+      - title: 'Institute of materials'
+        site: 'https://www.cnr.it/en/institute/114'
+        img: 'img/partners/IOM/IOM-logo.jpg'
+      - title: 'National Interuniversity Consortium of Materials Science and Technology'
+        site: 'https://www.instm.it/en/instm.aspx'
+        img: 'img/partners/INSTM/instm_logo.png'
+      - title: 'RENTAL SUD'
+        site: 'https://www.rentalsudnoleggi.com/'
+        img: 'img/partners/RENTAL_SUD/VETTORIALE RENTALSUD_4.0_gv3.it_DEF1220.png'
 
 
   - name: 'In collaboration with:'
     size: 'small'
     zoom: false
     items:
-      - title: 'National Research Council'
-        site: 'https://www.cnr.it/en'
-        img: 'img/partners/CNR/cnr_logo.png'
       - title: 'AREA Science Park'
         site: 'https://www.areasciencepark.it/en/'
         img: 'img/partners/AREA/OIP-840833661.jpg'
@@ -67,15 +76,10 @@ cards:
         img: 'img/partners/FONDA/fonda_new.jpg'
 
 
-  - name: 'Official sponsors:'
-    size: 'small'
-    items:
-      # - title: 'European XFEL'
-      #   site: 'https://www.xfel.eu/'
-      #   img: 'img/partners/XFEL/European_XFEL_logo.svg.png'
-      - title: 'National Interuniversity Consortium of Materials Science and Technology'
-        site: 'https://www.instm.it/en/instm.aspx'
-        img: 'img/partners/INSTM/instm_logo.png'
-      - title: 'RENTAL SUD'
-        site: 'https://www.rentalsudnoleggi.com/'
-        img: 'img/partners/RENTAL_SUD/VETTORIALE RENTALSUD_4.0_gv3.it_DEF1220.png'
+  # - name: 'Official sponsors:'
+  #   size: 'small'
+  #   items:
+  #     # - title: 'European XFEL'
+  #     #   site: 'https://www.xfel.eu/'
+  #     #   img: 'img/partners/XFEL/European_XFEL_logo.svg.png'
+
