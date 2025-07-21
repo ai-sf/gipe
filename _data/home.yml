@@ -22,7 +22,8 @@ slideshow1:
 
 paragraph1: 'The German Italian Physics Exchange 2025 is organised by AISF Trieste (Local Committee of the Italian Association of Physics Students) as part of a cultural and scientific exchange with the jDPG (young German Physical Society). The event will bring 50 students to visit some of the most advanced research facilities in Italy with one key mission: to foster enthusiasm in the minds of young physicists.'
 
-button: 'Go to registration page!'
+button_text: 'Registrations are open!'
+button: 'Go to the registration page!'
 # slideshow2:
 #   - img: img/slide/lampo.jpg
 #   - img: img/slide/tipo.jpg
