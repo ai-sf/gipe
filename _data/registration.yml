@@ -60,7 +60,7 @@ sections:
     points:
       - text: 'The round of registration opens on July 21<sup>st</sup> at 9:00, GTM+2 and closes on August 1<sup>st</sup> at 23:59, GTM+2.'
       # - text: 'Registrations are yet to open. Stay tuned for updates!'
-      - text: 'Once the registration is closed, the organizing committee will select the participants follpwing the selection criteria presented above.'
+      - text: 'Once the registration is closed, the organizing committee will select the participants following the selection criteria presented above.'
       - text: 'Selected participants will be notified within a few days from the registration closing, then the event fee will have to be paid within 7 days to confirm the participation.'
       - text: 'Students non-accepted will be notified as well, and they will have the possibility to participate in case spots are still free after the first payment period.'
   # - name: 'Registration Form'
@@ -70,4 +70,8 @@ sections:
     #   # - text: 'Registrations are closed.'
     #   # - text: 'The registration form will be available on July 21<sup>st</sup> at 9:00, GTM+2.'
     #   # - text: "Apply <a href='https://forms.gle/yfJq3nnhumPWPksDA'>here</a>"
-button: Apply Here!
+
+form_button:
+  text: "Apply Here!"
+  url: "https://forms.gle/yfJq3nnhumPWPksDA"
+  # icon: "arrow_forward"

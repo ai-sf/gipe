@@ -6,15 +6,16 @@ title: Registration
 {% include description.html data = site.data.registration %}
 
 <div class="section fade-in">
-  <div class="row">
+  <div class="center">
     <div class="col s8 offset-s2">
       <div class="icon-block">
-        <div class="center">
-          <a class="chip custom1 white-text" href="https://forms.gle/yfJq3nnhumPWPksDA"
-            style="font-size: 24px; display: inline-flex; align-items: center; margin:5px 0px; padding: 40px 30px;">
-            {{ site.data.registration.button }}
-          </a>
-        </div>
+        {% assign btn = site.data.registration.form_button %}
+        <a href="{{ btn.url | relative_url }}" class="custom-button waves-effect">
+          <span class="button-text">{{ btn.text }}</span>
+          {% if btn.icon %}
+          <i class="material-icons right">{{ btn.icon }}</i>
+          {% endif %}
+        </a>
       </div>
     </div>
   </div>
@@ -24,16 +25,18 @@ title: Registration
 {% include sections.html data = site.data.registration %}
 
 <div class="section fade-in">
-  <div class="row">
+  <div class="center">
     <div class="col s8 offset-s2">
       <div class="icon-block">
-        <div class="center">
-          <a class="chip custom1 white-text" href="https://forms.gle/yfJq3nnhumPWPksDA"
-            style="font-size: 24px; display: inline-flex; align-items: center; margin:5px 0px; padding: 40px 30px;">
-            {{ site.data.registration.button }}
-          </a>
-        </div>
+        {% assign btn = site.data.registration.form_button %}
+        <a href="{{ btn.url | relative_url }}" class="custom-button waves-effect">
+          <span class="button-text">{{ btn.text }}</span>
+          {% if btn.icon %}
+          <i class="material-icons right">{{ btn.icon }}</i>
+          {% endif %}
+        </a>
       </div>
+      <p style="margin: 3rem;"> </p>
     </div>
   </div>
 </div>
