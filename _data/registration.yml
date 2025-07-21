@@ -6,7 +6,7 @@ description:
         # - line: 'Registrations are yet to open. Stay tuned for updates!'
         # - line: 'Registrations are closed.'
         # - line: "Registrations are yet to open. Stay tuned for updates!"
-        - line: '<b>You can find the registration form at the bottom of this page.</b>'
+        # - line: '<b>You can find the registration form at the bottom of this page.</b>'
     - paragraph:
         - line: 'Please read the terms and conditions below. Please note that, upon registration, you will be asked for personal details (such as name, surname, date of birth, university affiliation, etc.).'
 
