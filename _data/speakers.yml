@@ -31,6 +31,16 @@
     - In this framework  work, heat and entropy become fluctuating quantities, and the fluctuation theorems describe the constraints on such fluctuations, extending the second law of thermodynamics to microscopic out-of-equilibrium systems.
     - In my lecture I will review the recent extension of the second law to the microscopic realm and discuss a few examples of microscopic out-of-equilibrium systems.
 
+- id: marinelli
+  name: Dott. Matteo Marinelli
+  photo: /img/speakers/marinelli/marinelli-matteo.jpg
+  bio:
+    - Matteo Marinelli received his Ph.D. in 2020 from ETH Zurich, where he conducted quantum information experiments with trapped ions. From 2020 to 2022, he served as the trapped-ion experimental lead scientist at the ETH-PSI Quantum Computing Hub, where he led the design and construction of the Hub's first experimental setup. He then joined JILA as a postdoctoral fellow, working on neutral atoms trapped in optical tweezers within a cryogenic environment. In October 2024, he joined the University of Trieste as a tenure-track professor, where he is now building a novel experimental platform to address the scalability challenges of neutral-atom quantum computing.
+  seminar_title: "Quantum computing with atoms"
+  seminar_description:
+    - Quantum computers hold the promise of solving problems that are intractable with classical resources, and atoms—nature's ideal qubits—are at the forefront of this revolution.
+    - "In this talk, we will explore how individual atoms can be isolated, manipulated, and entangled to perform quantum computations. I will introduce the main experimental platforms based on neutral atoms and trapped ions, highlighting the physics that enables precise qubit control, logic operations, and scalability. We'll also take a look inside the lab: what does a quantum computer built from atoms actually look like? From optical tweezers and ultra-high vacuum chambers to laser systems and control electronics, I’ll guide you through the key components and challenges of this cutting-edge technology. Finally, we will discuss the future directions and open questions on the path toward building large-scale, fault-tolerant quantum machines."
+
 - id: bassi
   name: Prof. Angelo Bassi
   photo: /img/speakers/bassi/bassi.jpg
@@ -42,7 +52,7 @@
 
 
 - id: masai
-  name: Dr. Pierluigi Masai
+  name: Dott. Pierluigi Masai
   photo: /img/speakers/masai/foto_Masai-683950461.jpg
   bio: PhD student at the University of Trieste.
   seminar_title: "The Link Between Research and Innovation: A Lesson From the History of Physics"

@@ -22,15 +22,18 @@ ControventoHostel / ICTP Guest House."
       place:
         name: "University of Trieste, Building D, Room 2A"
         url: "/facilities/#units"
-      description: "Institutional greetings from the professors of the Physics Department. They'll illustrate what it
-means to do research in Trieste, it will be followed by the presentation of some of our
-sponsors."
+      open: true
+      # open_description: "The event will be open to all the physics students of University of Trieste!"
+      substeps:
+        - title: "<u>14:30-15:00</u>: Welcome to participants and the event's introduction, followed by institutional greetings."
+        - title: "<u>15:00-16:30</u>: Introducing the Department of Excellence, followed by presentations of some of GIPE25's partners."
 
     - time: "16:30-17:30"
       title: "COFFEE BREAK"
       place:
         name: "University of Trieste, Building D"
         url: "/facilities/#units"
+      open: true
 
     - time: "17:30-20:00"
       title: "FREE TIME / POSSIBLE DINNER"
@@ -57,6 +60,7 @@ sponsors."
       place:
         name: "University of Trieste, Building F, Room A"
         url: "/facilities/#units"
+      open: true
       substeps:
       # - "You'll attend 3 conferences of 30 minutes each:"
         - title: '<em>"A brief overview of merging binary neutron stars"</em> held by Prof. Dr. Luciano Rezzolla;'
@@ -84,29 +88,32 @@ sponsors."
       place:
         name: "University of Trieste, Building F"
         url: "/facilities/#units"
+      open: true
 
     - time: "17:30-18:30"
       title: "SEMINARS"
       place:
         name: "University of Trieste, Building F, Room A"
         url: "/facilities/#units"
+      open: true
       substeps:
+        - title: '<em>"Quantum computing with atoms"</em> held by Dott. Matteo Marinelli;'
       # - "You'll attend 2 conferences of 30 minutes each:"
       # - 'A conference held by Prof. Daniele Coslovich;'
         - title: '<em>"100 Years of Quantum Mechanics: A History of Understanding What Cannot Be Seen"</em> held by Prof. Angelo Bassi.'
       # note: "Soon you'll find out about our speakers and seminars' abstracts!"
       speakers:
-        # - name: "John Doe"
-          # photo: "/img/speakers/coslovich/portrait.jpg"
-          # description: "Expert in quantum computing"
-          # url: "/speakers/john-doe.html"
+        - name: "Matteo Marinelli"
+          photo: "/img/speakers/marinelli/marinelli-matteo.jpg"
+          description: "Assistant professor at Università di Trieste"
+          id: "marinelli"
         - name: "Angelo Bassi"
           photo: "/img/speakers/bassi/bassi.jpg"
           description: "Professor of Theoretical Physics at University of Trieste"
           id: "bassi"
 
     - time: "18:30-20:00"
-      title: "POSSIBLE DINNER"
+      title: "DINNER AT THE UNIVERSITY'S CAFETERIA"
 
     - time: "20:00-22:30"
       title: "VISIT OF THE ASTRONOMICAL OBSERVATORY OF TRIESTE"
@@ -141,10 +148,10 @@ physicist Paolo Budinich."
         - "The structure of the visit is the following:"
       substeps:
         - title: 'Discussion Game: <em>"How open is open access?"</em>'
-          description: '<em>During this interactive session, participants will explore their opinions, engage in discussions, and make collective decisions on open access publishing. This game has been developed by SISSA Medialab, the SISSA in house company active in scholarly publishing and science communication.</em>'
+          description: '<p><em> During this interactive session, participants will explore their opinions, engage in discussions, and make collective decisions on open access publishing. This game has been developed by SISSA Medialab, the SISSA in house company active in scholarly publishing and science communication.</em></p>'
         # - '<p style="margin: 0 1rem 0 1rem; font-size: 0.95rem; text-align: justify"><em></em></p>'
         - title: "Coffee break;"
-        - title: "Presentation of SISSA's research branches."
+        - title: "Presentation of SISSA's physics research branches."
       note: "Private transportation provided."
 
     - time: "13:00-13:30"
@@ -180,6 +187,13 @@ physicist Paolo Budinich."
         name: "INAF-OATS (Via Giambattista Tiepolo, 11)"
         url: "/facilities/#inaf_central"
       description: "You will have the chance to discover what kind of research a physicist can do at INAF."
+      descriptions:
+        - 'There will be the following speakers:'
+      substeps:
+        - title: 'Fabrizio Fiore: Astrophysics in Trieste and astrophysics from space;'
+        - title: 'Andrea Zacchei (TBC): Technological projects at Osservatorio Astronomico di Trieste;'
+        - title: 'Laura Silva: Stellar Astrophysics at OATs;'
+        - title: 'Fabio Fontanot (TBC, or F.Fiore), Extragalactic Astrophysics @ OATs.'
 
     - time: "12:30-14:00"
       title: "LUNCH AT ICTP"
@@ -196,9 +210,9 @@ physicist Paolo Budinich."
         - "You will have the opportunity to visit the International Centre for Theoretical Physics, founded by Paolo Budinich and Abdus Salam in 1964."
         - "The structure of the visit is the following:"
       substeps:
-        - title: "14:00-15:00 Presentation of ICTP History;"
-        - title: "15:00-16:00 Seminar;"
-        - title: '16:00-16:30 <em>"The Link Between Research and Innovation: A Lesson From the History of Physics"</em> by PhD student Pierluigi Masai.'
+        - title: "<u>14:00-15:00</u>: Presentation of ICTP History;"
+        - title: "<u>15:00-16:00</u>: Seminar;"
+        - title: '<u>16:00-16:30</u>: <em>"The Link Between Research and Innovation: A Lesson From the History of Physics"</em> by Dott. Pierluigi Masai.'
       speakers:
         - name: "Pierluigi Masai"
           photo: "/img/speakers/masai/foto_Masai-683950461.jpg"
@@ -226,5 +240,5 @@ physicist Paolo Budinich."
         name: "Collegio Universitario Luciano Fonda (Via Fabio Severo, 40)"
         url: "/facilities/#fonda"
       substeps:
-        - title: "10:00-12:30 Poster session with some of our sponsors;"
-        - title: "12:30-13:00 Closing ceremony."
+        - title: "<u>10:00-12:30</u>: Poster session with some of our sponsors;"
+        - title: "<u>12:30-13:00</u>: Closing ceremony."

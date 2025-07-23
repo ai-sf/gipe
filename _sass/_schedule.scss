@@ -39,7 +39,7 @@
   color: $color-type1;
   padding-bottom: 0.7rem;
   border-bottom: 3px solid $color-type1;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 /* distanza dal bordo superiore (day‑decorator‑top) al primo slot */
@@ -130,14 +130,14 @@
 
 .note-description {
     background-color: rgba(176, 133, 235, 0.2);
-    border-left: 4px solid $color-type2;
+    // border-left: 4px solid $color-type2;
     padding: 0.5rem;
     border-radius: 8px;
     // font-weight: 500;
     margin-top: 0.5rem;
     list-style-type: none;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 1rem;
+    padding-right: 1rem;
     color: #444;
     // margin-bottom: 0.25rem;
     line-height: 1.4;
@@ -391,4 +391,72 @@
       }
     }
   }
+}
+
+.schedule-slot.open-slot {
+  // background-color: rgba($color-type1, 0.08); // colore lilla chiaro
+  border-left: 4px solid $color-type1;
+  border-radius: 8px;
+  padding-left: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+// .open-badge {
+//   display: inline-flex;
+//   align-items: center;
+//   gap: 0.4rem;
+//   background-color: $color-type1;
+//   color: white;
+//   font-size: 0.75rem;
+//   font-weight: 600;
+//   padding: 0.25rem 0.75rem;
+//   border-radius: 12px;
+//   white-space: nowrap;
+//   margin-left: 0.5rem;
+//   i {
+//     font-size: 1rem;
+//   }
+// }
+
+
+.open-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background-color: $color-type1;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.2rem 0.7rem;
+  border-radius: 12px;
+  white-space: nowrap;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+
+  i {
+    font-size: 1rem;
+  }
+
+  &:hover {
+    background-color: darken($color-type1, 10%);
+  }
+
+  &.active {
+    transform: translateY(10px);
+  }
+}
+
+.open-description-container {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
+  padding-left: 1.5rem; // indent aligned with icon
+}
+
+.open-description-container.expanded {
+  max-height: 200px; // sufficient height for description
+  opacity: 1;
+  margin-top: 0.5rem;
 }

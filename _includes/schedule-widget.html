@@ -8,7 +8,8 @@
 
         {% for slot in day.slots %}
         {% assign is_last = forloop.last %}
-        <div class="schedule-slot{% if is_last %} last-slot{% endif %}">
+        <div class="schedule-slot{% if is_last %} last-slot{% endif %}{% if slot.open %} open-slot{% endif %}">
+
             <div class="slot-meta">
                 <span class="slot-time">
                     <i class="material-icons icon-time">access_time</i> {{ slot.time }}
@@ -24,7 +25,31 @@
                 </span>
                 {% endif %}
             </div>
-            <div class="slot-title">{{ slot.title }}</div>
+
+            <!-- <div class="slot-title">{{ slot.title }}
+                {% if slot.open %}
+                <span class="open-badge">
+                    <i class="material-icons">lightbulb</i> Open
+                </span>
+                {% endif %}
+            </div> -->
+
+            <div class="slot-title">
+                {{ slot.title }}
+
+                {% if slot.open %}
+                <span class="open-badge toggle-open" onclick="toggleOpen(this)">
+                    <i class="material-icons">lightbulb</i> Open to all students
+                </span>
+                {% endif %}
+            </div>
+
+            {% if slot.open_description %}
+            <div class="open-description-container">
+                <p class="open-description">{{ slot.open_description }}</p>
+            </div>
+            {% endif %}
+
             <div class="slot-description">{{ slot.description | safe}}</div>
             {% if slot.descriptions %}
             <ul class="slot-descriptions">
@@ -33,6 +58,7 @@
                 {% endfor %}
             </ul>
             {% endif %}
+
             {% if slot.substeps %}
             <ul class="slot-substeps">
                 {% for step in slot.substeps %}
@@ -52,9 +78,11 @@
                 {% endfor %}
             </ul>
             {% endif %}
+
             {% if slot.note %}
             <div class="note-description">{{ slot.note | safe}}</div>
             {% endif %}
+
             {% if slot.speakers and slot.speakers.size > 0 %}
             <div class="speakers">
                 {% for speaker in slot.speakers %}
