@@ -5,7 +5,8 @@
       place:
         name: "University of Trieste, Building D, Room 2A"
         url: "/facilities/#units"
-      description: "Participants will be welcomed with gadgets and helpful information to check-in at the
+      descriptions:
+        - "Participants will be welcomed with gadgets and helpful information to check-in at the
 ControventoHostel / ICTP Guest House."
       # speakers:
       #   - name: "John Doe"
@@ -105,7 +106,7 @@ ControventoHostel / ICTP Guest House."
       speakers:
         - name: "Matteo Marinelli"
           photo: "/img/speakers/marinelli/marinelli-matteo.jpg"
-          description: "Assistant professor at Università di Trieste"
+          description: "Tenure-track Assistant professor at University of Trieste"
           id: "marinelli"
         - name: "Angelo Bassi"
           photo: "/img/speakers/bassi/bassi.jpg"
@@ -191,9 +192,9 @@ physicist Paolo Budinich."
         - 'There will be the following speakers:'
       substeps:
         - title: 'Fabrizio Fiore: Astrophysics in Trieste and astrophysics from space;'
-        - title: 'Andrea Zacchei (TBC): Technological projects at Osservatorio Astronomico di Trieste;'
+        - title: 'Andrea Zacchei: Technological projects at Osservatorio Astronomico di Trieste;'
         - title: 'Laura Silva: Stellar Astrophysics at OATs;'
-        - title: 'Fabio Fontanot (TBC, or F.Fiore), Extragalactic Astrophysics @ OATs.'
+        - title: 'Fabio Fontanot: Extragalactic Astrophysics at OATs.'
 
     - time: "12:30-14:00"
       title: "LUNCH AT ICTP"

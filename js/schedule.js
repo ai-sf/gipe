@@ -17,15 +17,15 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 });
 
-function toggleOpen(badgeEl) {
-    const container = badgeEl.closest('.schedule-slot');
-    const description = container.querySelector('.open-description-container');
+// function toggleOpen(badgeEl) {
+//     const container = badgeEl.closest('.schedule-slot');
+//     const description = container.querySelector('.open-description-container');
 
-    if (description.classList.contains('expanded')) {
-        description.classList.remove('expanded');
-        badgeEl.classList.remove('active');
-    } else {
-        description.classList.add('expanded');
-        badgeEl.classList.add('active');
-    }
-}
+//     if (description.classList.contains('expanded')) {
+//         description.classList.remove('expanded');
+//         badgeEl.classList.remove('active');
+//     } else {
+//         description.classList.add('expanded');
+//         badgeEl.classList.add('active');
+//     }
+// }

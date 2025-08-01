@@ -34,11 +34,11 @@
                 {% endif %}
             </div> -->
 
-            <div class="slot-title">
-                {{ slot.title }}
+            <div class="slot-title-with-badge">
+                <span class="slot-title-text">{{ slot.title }}</span>
 
                 {% if slot.open %}
-                <span class="open-badge toggle-open" onclick="toggleOpen(this)">
+                <span class="open-badge">
                     <i class="material-icons">lightbulb</i> Open to all students
                 </span>
                 {% endif %}

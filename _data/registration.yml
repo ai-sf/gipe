@@ -2,9 +2,9 @@ description:
   title: 'General information'
   paragraphs:
     - paragraph:
-        - line: 'Registrations will be open from July 21<sup>st</sup> at 9:00, GTM+2 to August 1<sup>st</sup> at 23:59, GTM+2.'
+        # - line: 'Registrations will be open from July 21<sup>st</sup> at 9:00, GTM+2 to August 1<sup>st</sup> at 23:59, GTM+2.'
         # - line: 'Registrations are yet to open. Stay tuned for updates!'
-        # - line: 'Registrations are closed.'
+        - line: 'Registrations are closed.'
         # - line: "Registrations are yet to open. Stay tuned for updates!"
         # - line: '<b>You can find the registration form at the bottom of this page.</b>'
     - paragraph:
@@ -58,20 +58,16 @@ sections:
   - name: 'Deadlines'
     info: ''
     points:
-      - text: 'The round of registration opens on July 21<sup>st</sup> at 9:00, GTM+2 and closes on August 1<sup>st</sup> at 23:59, GTM+2.'
+      - text: 'Registrations are closed.'
+      - text: 'The round of registration opened on July 21<sup>st</sup> at 9:00, GTM+2 and closed on August 1<sup>st</sup> at 23:59, GTM+2.'
+
+      # - text: 'The round of registration opens on July 21<sup>st</sup> at 9:00, GTM+2 and closes on August 1<sup>st</sup> at 23:59, GTM+2.'
       # - text: 'Registrations are yet to open. Stay tuned for updates!'
-      - text: 'Once the registration is closed, the organizing committee will select the participants following the selection criteria presented above.'
+      - text: 'The organizing committee will select the participants following the selection criteria presented above.'
       - text: 'Selected participants will be notified within a few days from the registration closing, then the event fee will have to be paid within 7 days to confirm the participation.'
       - text: 'Students non-accepted will be notified as well, and they will have the possibility to participate in case spots are still free after the first payment period.'
-  # - name: 'Registration Form'
-    # info: ''
-    # points:
-    #   # - text: "<form><button style='background-color: #04AA6D; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer;' formaction='https://bit.ly/applytiqit24' target='_blank'>Apply here</button></form>"
-    #   # - text: 'Registrations are closed.'
-    #   # - text: 'The registration form will be available on July 21<sup>st</sup> at 9:00, GTM+2.'
-    #   # - text: "Apply <a href='https://forms.gle/yfJq3nnhumPWPksDA'>here</a>"
 
-form_button:
-  text: "Apply Here!"
-  url: "https://forms.gle/yfJq3nnhumPWPksDA"
-  # icon: "arrow_forward"
+# form_button:
+#   text: "Apply Here!"
+#   url: "https://forms.gle/yfJq3nnhumPWPksDA"
+#   # icon: "arrow_forward"
