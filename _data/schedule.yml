@@ -197,33 +197,38 @@ physicist Paolo Budinich."
         - title: 'Fabio Fontanot: Extragalactic Astrophysics at OATs.'
 
     - time: "12:30-14:00"
-      title: "LUNCH AT ICTP"
+      title: "LUNCH AT ICTP'S CAFETERIA"
       place:
-        name: "ICTP (Str. Costiera, 11)"
+        name: "ICTP, Leonardo building (Str. Costiera, 11)"
         url: "/facilities/#ictp"
 
-    - time: "14:00-17:00"
+    - time: "14:00-16:30"
       title: "VISITING ICTP"
       place:
-        name: "ICTP"
+        name: "ICTP, Leonardo building, Budinich Lecture Hall"
         url: "/facilities/#ictp"
       descriptions:
         - "You will have the opportunity to visit the International Centre for Theoretical Physics, founded by Paolo Budinich and Abdus Salam in 1964."
         - "The structure of the visit is the following:"
       substeps:
         - title: "<u>14:00-15:00</u>: Presentation of ICTP History;"
-        - title: "<u>15:00-16:00</u>: Seminar;"
+        - title: "<u>15:00-16:00</u>: Seminar held by Dott. Francesco Camilli;"
         - title: '<u>16:00-16:30</u>: <em>"The Link Between Research and Innovation: A Lesson From the History of Physics"</em> by Dott. Pierluigi Masai.'
       speakers:
+        - name: "Francesco Camilli"
+          photo: "/img/speakers/camilli/foto_FC_zoomed.jpeg"
+          description: "Postdoctoral research fellow at ICTP"
+          id: "camilli"
+
         - name: "Pierluigi Masai"
           photo: "/img/speakers/masai/foto_Masai-683950461.jpg"
           description: "PhD student at the University of Trieste"
           id: "masai"
 
-    - time: "16:30-18:30"
+    - time: "16:30-17:00"
       title: "COFFEE BREAK"
       place:
-        name: "ICTP"
+        name: "ICTP, Leonardo building"
         url: "/facilities/#ictp"
       description: "Followed by the possibility to join us to discover <strong>Miramare Castle</strong>."
 
