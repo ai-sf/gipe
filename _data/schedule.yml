@@ -36,8 +36,11 @@ ControventoHostel / ICTP Guest House."
         url: "/facilities/#units"
       open: true
 
-    - time: "17:30-20:00"
-      title: "FREE TIME / POSSIBLE DINNER"
+    - time: "18:45-20:00"
+      title: "BUFFET"
+      place:
+        name: "Collegio Universitario Luciano Fonda (Via Fabio Severo, 40)"
+        url: "/facilities/#fonda"
 
     - time: "20:00-23:00"
       title: "GAME NIGHT"
@@ -248,3 +251,10 @@ physicist Paolo Budinich."
       substeps:
         - title: "<u>10:00-12:30</u>: Poster session with some of our sponsors;"
         - title: "<u>12:30-13:00</u>: Closing ceremony."
+    
+    - time:
+      title: "EXTRA ACTIVITY"
+      descriptions:
+        - "Lunch outside the city with the participants who manage to stay longer after the event and want to discover a local experience."
+        - "All costs are up to you. The place is not recommended for vegetarians/vegans."
+        - "Stay tuned for updates!"
