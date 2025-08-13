@@ -48,8 +48,11 @@ ControventoHostel / ICTP Guest House."
         name: "Collegio Universitario Luciano Fonda (Via Fabio Severo, 40)"
         url: "/facilities/#fonda"
       descriptions:
-      - "Social activity with students from Collegio Fonda: they will talk about physicist Luciano Fonda."
-      - "The evening will proceed with board games (quantum games) and some fun quizzes about physics and Trieste!"
+        - "Social activity with students from Collegio Fonda:"
+      # - "The evening will proceed with board games (quantum games) and some fun quizzes about physics and Trieste!"
+        - "<p><em>Ten teams, each dedicated to an eminent scientist, will have to take a quiz based on the strangest curiosities of the world of physics. Fun is guaranteed!</em><p>"
+        - "<p><em>After that, if you are not too tired you can play quantum games, simple board games inspired by the world of quantum mechanics!</em></p>"
+        - "<p><em>Our location will be “Collegio Fonda” and during this night we will learn about its founder!</em></p>"
 
 - day: WEDNESDAY 17/09
   slots:
