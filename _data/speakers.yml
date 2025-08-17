@@ -50,6 +50,11 @@
   seminar_description:
     - This talk traces the extraordinary journey of quantum mechanics over the past century, from the earliest atomic models to the profound conceptual revolutions that reshaped our understanding of reality. Beginning with Dalton's atomic hypothesis and culminating in Schrödinger's wave mechanics, the presentation highlights the progressive realization that matter exhibits both particle and wave-like behaviors. It then explores the deep philosophical and physical implications of quantum theory, focusing on the Einstein-Podolsky-Rosen paradox and Bell's theorem, culminating in the experimental confirmation of quantum nonlocality. The final part of the talk addresses modern quantum technologies—including quantum computing, communication, and sensing—emphasizing how the fragility of quantum states is being harnessed for transformative technological applications. As we celebrate the International Year of Quantum in 2025, this retrospective not only honors a century of discovery but also looks ahead to a quantum-enabled future.
 
+- id: carta
+  name: Dott. Lorenzo Carta
+  # photo: ""
+  bio: "Lorenzo Carta is a PhD student in Applied Data Science and Artificial Intelligence at the University of Trieste. He has a background in Philosophy and a postgraduate degree in Science Communication from SISSA. His research focuses on AI technologies through the lens of Science and Technology Studies (STS) and the governance of emerging technologies. He collaborates with SISSA Medialab and the Trieste Science+Fiction Festival on science communication initiatives. He has developed a discussion game on open access publishing for SISSA Medialab."
+
 - id: camilli
   name: Dott. Francesco Camilli
   photo: "/img/speakers/camilli/foto_FC_zoomed.jpeg"
@@ -60,7 +65,7 @@
 - id: masai
   name: Dott. Pierluigi Masai
   photo: /img/speakers/masai/foto_Masai-683950461.jpg
-  bio: PhD student at the University of Trieste.
+  bio: "Pierluigi Masai is currently a PhD student in Applied Data Science and Artificial Intelligence at the University of Trieste. His research investigates the ethics and governance of AI. His approach is rooted in Science and Technology Studies (STS). His work is informed by a mixed background. In 2018 he earned a Master's Degree in Physics at the University of Trieste. From 2018 to 2020 he studied Filmmaking at an academy in Bologna and in the Summer of 2019 he attended a Master in Filmmaking at the UCLA School of Theater, Film and Television in Los Angeles. In 2023 he earned a Postgraduate Degree in Science Communication at the International School for Advanced Studies (SISSA) in Trieste. In 2023 he spent an internship at RAI FVG working on radio programs. His interests range from the philosophy and history of science to communication processes and media studies. He worked for Zanichelli and Mondadori, two Italian publishing companies, reviewing Mathematics and Physics textbooks. He has been moderator for many public talks about science and currently collaborates with the Trieste Science+Fiction Festival."
   seminar_title: "The Link Between Research and Innovation: A Lesson From the History of Physics"
   seminar_description:
     - "Dott. Pierluigi Masai will talk about his own educational journey and the

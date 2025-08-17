@@ -154,11 +154,16 @@ physicist Paolo Budinich."
       descriptions:
         - "The structure of the visit is the following:"
       substeps:
-        - title: 'Discussion Game: <em>"How open is open access?"</em>'
+        - title: 'Discussion Game led by Dott. Lorenzo Carta: <em>"How open is open access?"</em>'
           description: '<p><em> During this interactive session, participants will explore their opinions, engage in discussions, and make collective decisions on open access publishing. This game has been developed by SISSA Medialab, the SISSA in house company active in scholarly publishing and science communication.</em></p>'
         # - '<p style="margin: 0 1rem 0 1rem; font-size: 0.95rem; text-align: justify"><em></em></p>'
         - title: "Coffee break;"
         - title: "Presentation of SISSA's physics research branches."
+      speakers:
+        - name: "Lorenzo Carta"
+          # photo: "/img/speakers/"
+          description: "PhD student at University of Trieste"
+          id: "carta"
       note: "Private transportation provided."
 
     - time: "13:00-13:30"
