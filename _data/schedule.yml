@@ -161,7 +161,7 @@ physicist Paolo Budinich."
         - title: "Presentation of SISSA's physics research branches."
       speakers:
         - name: "Lorenzo Carta"
-          # photo: "/img/speakers/"
+          photo: "/img/speakers/carta/foto_carta.jpeg"
           description: "PhD student at University of Trieste"
           id: "carta"
       note: "Private transportation provided."
