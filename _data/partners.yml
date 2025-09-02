@@ -53,7 +53,7 @@ cards:
     size: 'small'
     zoom: false
     items:
-      - title: 'AREA Science Park'
+      - title: 'Area Science Park'
         site: 'https://www.areasciencepark.it/en/'
         img: 'img/partners/AREA/OIP-840833661.jpg'
       - title: 'Collegio Universitario Luciano Fonda'

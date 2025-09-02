@@ -177,6 +177,13 @@ physicist Paolo Budinich."
       place:
         name: "Padriciano"
         url: "/facilities/#area"
+      descriptions:
+        - "A presentation on the research lines of Area Science Park in Padriciano will be given by Dott. Emanuele Panizon."
+      speakers:
+        - name: "Emanuele Panizon"
+          photo: "/img/speakers/panizon/foto_panizon.jpg"
+          description: "Postdoctoral researcher in the Life Science Group at ICTP"
+          id: "panizon"
       note: "Private transportation provided."
       # description: "Participants will have the opportunity to visit the laboratories of AREA Science Park, Elettra Sincrotrone, CNR and INFN."
     - time: "16:45-18:45"

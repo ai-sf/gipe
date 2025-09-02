@@ -54,6 +54,12 @@
   name: Dott. Lorenzo Carta
   photo: "/img/speakers/carta/foto_carta.jpeg"
   bio: "Lorenzo Carta is a PhD student in Applied Data Science and Artificial Intelligence at the University of Trieste. He has a background in Philosophy and a postgraduate degree in Science Communication from SISSA. His research focuses on AI technologies through the lens of Science and Technology Studies (STS) and the governance of emerging technologies. He collaborates with SISSA Medialab and the Trieste Science+Fiction Festival on science communication initiatives. He has developed a discussion game on open access publishing for SISSA Medialab."
+- id: "panizon"
+  name: "Dott. Emanuele Panizon"
+  photo: "/img/speakers/panizon/foto_panizon.jpg"
+  bio:
+    - "Emanuele Panizon began his scientific career in computational condensed matter physics, studying the structural properties of nanoalloys under both equilibrium and non-equilibrium conditions."
+    - "After earning his Ph.D. in Genoa, he became a postdoctoral fellow, first at SISSA (Trieste) and then at the University of Konstanz. There, he gradually transitioned from solid-state physics to delve into the complexity of biological systems, which led him to a postdoctoral position in the Life Science Group at ICTP in Trieste. At ICTP, his work focuses on Machine Learning in general and Reinforcement Learning in particular. He is fascinated by the new research directions that combine Reinforcement Learning with the capabilities of Large Language Models."
 
 - id: camilli
   name: Dott. Francesco Camilli

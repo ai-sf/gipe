@@ -79,10 +79,6 @@
             </ul>
             {% endif %}
 
-            {% if slot.note %}
-            <div class="note-description">{{ slot.note | safe}}</div>
-            {% endif %}
-
             {% if slot.speakers and slot.speakers.size > 0 %}
             <div class="speakers">
                 {% for speaker in slot.speakers %}
@@ -103,9 +99,13 @@
                 {% endfor %}
             </div>
             {% endif %}
-            <!-- {% unless is_last %} -->
+
+            {% if slot.note %}
+            <div class="note-description">{{ slot.note | safe}}</div>
+            {% endif %}
+
             <div class="slot-line"></div>
-            <!-- {% endunless %} -->
+
         </div>
         {% endfor %}
         <div class="day-decorator-bottom"></div>
