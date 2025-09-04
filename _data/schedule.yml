@@ -182,7 +182,7 @@ physicist Paolo Budinich."
       speakers:
         - name: "Emanuele Panizon"
           photo: "/img/speakers/panizon/foto_panizon.jpg"
-          description: "Postdoctoral researcher in the Life Science Group at ICTP"
+          description: "Postdoctoral Researcher in the Life Science Group at ICTP"
           id: "panizon"
       note: "Private transportation provided."
       # description: "Participants will have the opportunity to visit the laboratories of AREA Science Park, Elettra Sincrotrone, CNR and INFN."
@@ -201,18 +201,31 @@ physicist Paolo Budinich."
 - day: FRIDAY 19/09
   slots:
     - time: "9:00-11:30"
-      title: "CONFERENCE"
+      title: "CONFERENCES"
       place:
         name: "INAF-OATS (Via Giambattista Tiepolo, 11)"
         url: "/facilities/#inaf_central"
       description: "You will have the chance to discover what kind of research a physicist can do at INAF."
       descriptions:
-        - 'There will be the following speakers:'
+        - 'There will be the following speeches:'
       substeps:
         - title: 'Fabrizio Fiore: Astrophysics in Trieste and astrophysics from space;'
-        - title: 'Andrea Zacchei: Technological projects at Osservatorio Astronomico di Trieste;'
+        - title: 'Daniele Tavagnacco: Technological projects at Osservatorio Astronomico di Trieste;'
         - title: 'Laura Silva: Stellar Astrophysics at OATs;'
-        - title: 'Fabio Fontanot: Extragalactic Astrophysics at OATs.'
+        # - title: 'Fabio Fontanot: Extragalactic Astrophysics at OATs.'
+      speakers:
+        - name: 'Fabrizio Fiore'
+          # photo:
+          description: 'Senior Researcher and Director of INAF - Osservatorio Astronomico di Trieste'
+          id: "fiore"
+        - name: 'Daniele Tavagnacco'
+          # photo:
+          description: "Data Scientist Researcher at INAF-OATs"
+          id: "tavagnacco"
+        - name: 'Laura Silva'
+          # photo:
+          description: "Senior Researcher at INAF-OATs"
+          id: "silva"
 
     - time: "12:30-14:00"
       title: "LUNCH AT ICTP'S CAFETERIA"
@@ -230,7 +243,7 @@ physicist Paolo Budinich."
         - "The structure of the visit is the following:"
       substeps:
         - title: "<u>14:00-15:00</u>: Presentation of ICTP History;"
-        - title: "<u>15:00-16:00</u>: Seminar held by Dott. Francesco Camilli;"
+        - title: '<u>15:00-16:00</u>: <em>"The Phases of Nature: Emergence and Universality"</em> held by Dott. Francesco Camilli;'
         - title: '<u>16:00-16:30</u>: <em>"The Link Between Research and Innovation: A Lesson From the History of Physics"</em> by Dott. Pierluigi Masai.'
       speakers:
         - name: "Francesco Camilli"

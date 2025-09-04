@@ -54,12 +54,48 @@
   name: Dott. Lorenzo Carta
   photo: "/img/speakers/carta/foto_carta.jpeg"
   bio: "Lorenzo Carta is a PhD student in Applied Data Science and Artificial Intelligence at the University of Trieste. He has a background in Philosophy and a postgraduate degree in Science Communication from SISSA. His research focuses on AI technologies through the lens of Science and Technology Studies (STS) and the governance of emerging technologies. He collaborates with SISSA Medialab and the Trieste Science+Fiction Festival on science communication initiatives. He has developed a discussion game on open access publishing for SISSA Medialab."
-- id: "panizon"
-  name: "Dott. Emanuele Panizon"
+
+- id: panizon
+  name: Dott. Emanuele Panizon
   photo: "/img/speakers/panizon/foto_panizon.jpg"
   bio:
     - "Emanuele Panizon began his scientific career in computational condensed matter physics, studying the structural properties of nanoalloys under both equilibrium and non-equilibrium conditions."
     - "After earning his Ph.D. in Genoa, he became a postdoctoral fellow, first at SISSA (Trieste) and then at the University of Konstanz. There, he gradually transitioned from solid-state physics to delve into the complexity of biological systems, which led him to a postdoctoral position in the Life Science Group at ICTP in Trieste. At ICTP, his work focuses on Machine Learning in general and Reinforcement Learning in particular. He is fascinated by the new research directions that combine Reinforcement Learning with the capabilities of Large Language Models."
+
+- id: fiore
+  name: Dott. Fabrizio Fiore
+  bio:
+    - "Senior researcher at INAF"
+    - "Director of INAF - Osservatorio Astronomico di Trieste"
+    - '>35 years of experience in space science and extragalactic astrophysics. Scientific coordinator of several space projects including the HERMES - Pathfinder project. Many active collaborations with ASI, ESA, NASA. Co-author of >400 scientific publications. 
+      I write about science on my blog <a href="https://www.lascienzainutile.it/">www.lascienzainutile.it</a>. I have prepared many outreach  presentations, which I have given on >100 occasions.'
+
+- id: tavagnacco
+  name: Dott. Daniele Tavagnacco
+  bio: "Daniele Tavagnacco is a data scientist researcher at the National Institute for Astrophysics (INAF) - Trieste Astronomical Observatory, specialized in the collection,
+processing, and analysis of data from space missions. He worked for the Planck ESA mission Science Ground Segment (SGS) developing data processing and quality control software, 
+and he is currently leading the software integration team for the spectroscopic data analysis pipeline in the ongoing ESA Euclid mission.
+His expertise in end-to-end data solutions from raw telemetry to science-ready products, ranges from data engineering, processing and calibration of cosmic datasets, to the creation of 
+scalable workflows for managing large volumes of data from space-based observations. "
+  seminar_title: 'Technology and instruments projects at INAF - Trieste Astronomical Observatory'
+  seminar_description: "Observational astronomy is constantly evolving, requiring the creation of increasingly sophisticated and cutting-edge hardware and software tools. 
+Technology must cope with the increasingly pressing and detailed demands posed by the analysis of results obtained with previous-generation instruments. 
+At INAF, technological research is intrinsically multidisciplinary and diversified, ranging from the continuous development of innovative technologies and materials,
+ to the creation of complex numerical simulations and software for data analysis and instrumentation control, to the management and preservation of its data and services, 
+according to the Open Science and FAIR-ness scenarios."
+
+- id: silva
+  name: Dott. Laura Silva
+  bio:
+    - "Senior researcher at INAF-OATs"
+    - "Research Interests: Astrobiology and Planetary habitability; Chemical evolution of galaxies; Radiative transfer through dust."
+  seminar_title: "Stars, Elements, and Planets: The Archaeology of Our Galaxy"
+  seminar_description: "Stellar generations continuously recycle  baryonic  matter in galaxies, 
+forging all elements heavier than helium. 
+This process enriches the gas and dust from which planets, and ultimately, life may emerge. 
+Characterizing stellar properties and tracing the chemical evolution of the 
+Milky Way shows how stellar physics, galactic archaeology, 
+and the study of habitable worlds are closely connected."
 
 - id: camilli
   name: Dott. Francesco Camilli
@@ -67,6 +103,9 @@
   bio:
     - "Francesco Camilli is a postdoctoral research fellow at the Abdus Salam International Centre for Theoretical Physics (ICTP). He earned a joint PhD in Mathematics from the University of Bologna and in Physics from the École Normale Supérieure in Paris, under the supervision of Pierluigi Contucci and Marc Mézard. He was awarded the INdAM-UMI-SIMAI national prize for the best thesis in Applied Mathematics defended in an Italian institution. Prior to joining ICTP, he was a pre-doctoral visiting scientist at the Institute of Science and Technology Austria."
     - "His research interests range from statistical mechanics of disordered systems, to learning theory, high-dimensional probability, and statistical inference. Camilli is also strongly committed to teaching and science communication. Together with P. Contucci, he co-authored the textbook Lezioni di Meccanica Elementare, e oltre, which is used in undergraduate courses in Mathematical Physics."
+  seminar_title: 'The Phases of Nature: Emergence and Universality '
+  seminar_description:
+    - "“More is different,” as P. W. Anderson famously remarked. The collective behavior of many elementary objects, whether particles, atoms, molecules, people, or even bits of information, can be profoundly different from the behavior of each one in isolation. These emergent properties manifest themselves in the physical world through phase transitions separating two or more phases. In some phases, the elementary components act independently without producing a macroscopic change; in others, they cooperate to generate new, collective behavior. A familiar example is the transition of water into ice as the temperature drops: below freezing, water molecules align to form a crystalline structure. This paradigm extends far beyond traditional physical systems. Comparable mechanisms underlie a wide range of phenomena in physics, information science, and even social dynamics. Phase transitions arise as a natural consequence of the interaction among large numbers of components, where the specific details of each element often become irrelevant. Phase transitions thus illustrate how the richness of nature emerges from cooperation at scale, demonstrating that the whole can indeed be more than the sum of its parts."
 
 - id: masai
   name: Dott. Pierluigi Masai
