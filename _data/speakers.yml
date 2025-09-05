@@ -59,7 +59,7 @@
   name: Dott. Emanuele Panizon
   photo: "/img/speakers/panizon/foto_panizon.jpg"
   bio:
-    - "Emanuele Panizon began his scientific career in computational condensed matter physics, studying the structural properties of nanoalloys under both equilibrium and non-equilibrium conditions."
+    - "Emanuele Panizon is a permanent AI researcher at the Laboratory of Data Engineering at the AREA Science Park, Trieste. His scientific career began in computational condensed matter physics, studying the structural properties of nanoalloys under both equilibrium and non-equilibrium conditions."
     - "After earning his Ph.D. in Genoa, he became a postdoctoral fellow, first at SISSA (Trieste) and then at the University of Konstanz. There, he gradually transitioned from solid-state physics to delve into the complexity of biological systems, which led him to a postdoctoral position in the Life Science Group at ICTP in Trieste. At ICTP, his work focuses on Machine Learning in general and Reinforcement Learning in particular. He is fascinated by the new research directions that combine Reinforcement Learning with the capabilities of Large Language Models."
 
 - id: fiore
