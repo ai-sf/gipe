@@ -5,7 +5,7 @@
       place:
         name: "University of Trieste, Building D, Room 2A"
         url: "/facilities/#units"
-      descriptions:
+      description:
         - "Participants will be welcomed with gadgets and helpful information to check-in at the
 ControventoHostel / ICTP Guest House."
       # speakers:
@@ -27,7 +27,14 @@ ControventoHostel / ICTP Guest House."
       # open_description: "The event will be open to all the physics students of University of Trieste!"
       substeps:
         - title: "<u>14:30-15:00</u>: Welcome to participants and the event's introduction, followed by institutional greetings."
-        - title: "<u>15:00-16:30</u>: Introducing the Department of Excellence, followed by presentations of some of GIPE25's partners."
+        - title: "<u>15:00-16:30</u>: Introducing the <strong>Department of Excellence</strong>, followed by presentations of some of GIPE25's partners:"
+          descriptions:
+          - "15:20-15:30: <strong>Area Science Park and SiS FVG</strong> - Dott. Luca Mercatelli;"
+          - "15:30-15:40: <strong>CNR-IOM</strong> - Dott.ssa Martina dell'Angela;"
+          - "15:40-15:50: <strong>Elettra Sincrotrone Trieste</strong> - Prof. Simone Di Mitri;"
+          - "15:50-16:00: <strong>SISSA</strong> - Prof. Carlo Baccigalupi;"
+          - "16:00-16:10: <strong>INFN</strong> - Dott.ssa Grazia Luparello;"
+          - "16:10-16:20: <strong>Istituto Italiano di Studi Germanici</strong> - Dott. Iacopo Chiaravalli."
 
     - time: "16:30-17:30"
       title: "COFFEE BREAK"
@@ -127,7 +134,7 @@ ControventoHostel / ICTP Guest House."
       place:
         name: "INAF-OATS (SS14 Basovizza, 302)"
         url: "/facilities/#inaf"
-      descriptions:
+      description:
         - "You will have the opportunity to visit Margherita Hack's Specola, where the famous
 astrophysicist and science popularizer worked. The observatory is located in a rural area of
 Trieste (Basovizza), where light pollution is lower, allowing for better star observation."
@@ -156,14 +163,21 @@ physicist Paolo Budinich."
       substeps:
         - title: 'Discussion Game led by Dott. Lorenzo Carta: <em>"How open is open access?"</em>'
           description: '<p><em> During this interactive session, participants will explore their opinions, engage in discussions, and make collective decisions on open access publishing. This game has been developed by SISSA Medialab, the SISSA in house company active in scholarly publishing and science communication.</em></p>'
+          speaker:
+            name: "Lorenzo Carta"
+            photo: "/img/speakers/carta/foto_carta.jpeg"
+            description: "PhD student at University of Trieste"
+            id: "carta"
         # - '<p style="margin: 0 1rem 0 1rem; font-size: 0.95rem; text-align: justify"><em></em></p>'
         - title: "Coffee break;"
-        - title: "Presentation of SISSA's physics research branches."
-      speakers:
-        - name: "Lorenzo Carta"
-          photo: "/img/speakers/carta/foto_carta.jpeg"
-          description: "PhD student at University of Trieste"
-          id: "carta"
+        - title: "Presentation of SISSA's physics research branches:"
+          descriptions:
+          - "<strong>Matteo Viel</strong> (APG): Full Professor at SISSA, working on the intergalactic medium, dark matter models, cosmological neutrino masses, and structure formation, using hydrodynamical simulations and high-resolution data to constrain fundamental cosmological parameters."
+          - "<strong>Carlo Baccigalupi</strong> (APC, presenting also TPP): Full Professor at SISSA. His work focuses on cosmology, from the early universe to cosmic structures and gravitational waves, and he contributes to major international projects such as Planck, Euclid, LiteBIRD, and LISA."
+          - "<strong>Alessandro Silva</strong> (CM): Full professor at SISSA, his main research interests concern non-equilibrium dynamics and transport in low-dimensional strongly correlated systems, such as spin chains, bosonic and fermionic atoms in optical lattices, and nanostructures (quantum wires, quantum dots)."
+          - "<strong>Gesualdo Delfino</strong> (SP): Full Professor at SISSA, specializing in quantum field theory, statistical mechanics, and critical phenomena. Since 2023, he has been coordinating the PhD program in Statistical Physics at SISSA."
+          - "<strong>Giovanni Bussi</strong> (MSB): Full Professor at SISSA, where he studies protein-RNA interactions and non-coding RNA dynamics using molecular simulations. He also develops methods for molecular dynamics and contributes to the PLUMED software."
+          - "<strong>Guido Sanguinetti</strong> (TSDS): Full professor at SISSA, he leads the Machine Learning and Systems Biology group. His main interests are in statistical modelling of biomedical data, with particular reference to Bayesian methodologies to interrogate sparse, high-dimensional data sets emerging from next generation sequencing experiments."
       note: "Private transportation provided."
 
     - time: "13:00-13:30"
@@ -191,6 +205,16 @@ physicist Paolo Budinich."
       place:
         name: "Basovizza"
         url: "/facilities/#elettra"
+      substeps:
+      - title: "<strong>Elettra-Sincrotrone Trieste</strong> is presented by Marco Zangrando, discussing the future of the synchrotron and the FERMI Free Electron Laser."
+      - title: "Presentation of <strong>CNR-IOM</strong> and some of its key research areas through a guided tour by researchers in their labs:"
+        descriptions:
+        - "<strong>Large-scale facilities:</strong> Low Density Matter (LDM) beamline at FERMI - Michele Di Fraia;"
+        - "<strong>Synthesis and Nano Fabrication:</strong> Nano Fabrication Facility (FNF) and High Mobility Molecular Beam Epitaxy (HMMBE) laboratories - Daniele Ercolani;"
+        - "<strong>Microscopy:</strong> CryoCLEM laboratory - Martina Conti;"
+        - "<strong>X-ray Spectroscopy:</strong> Magnetic and INTerfacial properties (MINT) laboratory - Aleksandr Petrov;"
+        - "<strong>Nanobio:</strong> Microfabrication Microsensing and Mechanobiology (3M) laboratory - Pietro Parisse."
+
       note: "Private transportation provided."
 
     - time: "19:00-20:00"

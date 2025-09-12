@@ -68,10 +68,45 @@
                     </div>
                     <div class="substep-text">
                         <div class="substep-title-row">
-                            <span class="substep-title">{{ step.title }}</span>
+                            <span class="substep-title">{{ step.title | safe}}</span>
                         </div>
+
                         {% if step.description %}
                         <div class="substep-description">{{ step.description }}</div>
+                        {% endif %}
+
+                        {% if step.descriptions %}
+                        <ul class="substep-description-points">
+                            {% for point in step.descriptions %}
+                            <li class="point">
+                                <div class="point-icon-wrapper">
+                                    <i class="material-icons">radio_button_unchecked</i>
+                                </div>
+                                <div class="point-text-row">
+                                    <span class="point-text">{{ point | safe }}</span>
+                                </div>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                        {% if step.speaker %}
+                        <div class="speakers">
+                            <a href="{{ '/speakers/#' | append: step.speaker.id | relative_url }}"
+                                class="speaker-card-link">
+                                <div class="speaker-card" id="speaker-{{ step.speaker.id }}">
+                                    {% if step.speaker.photo %}
+                                    <div class="speaker-image-container">
+                                        <img src="{{ step.speaker.photo | relative_url }}" alt="{{ step.speaker.name }}"
+                                            class="speaker-image" />
+                                    </div>
+                                    {% endif %}
+                                    <div class="speaker-info">
+                                        <div class="speaker-name">{{ step.speaker.name }}</div>
+                                        <div class="speaker-description">{{ step.speaker.description }}</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                         {% endif %}
                     </div>
                 </li>

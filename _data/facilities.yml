@@ -5,21 +5,21 @@ cards:
       - img: img/facilities/trieste-3380713166.jpg
         title: University of Trieste
         tag: 'units'
-        descr: ''
+        descr: "The University of Trieste, founded in 1924, is a public institution devoted to higher education and scientific research. It offers a wide spectrum of undergraduate, master's, and doctoral programs across departments such as Physics, Engineering, Chemical Sciences, Social Sciences, and more. With a strong tradition of international cooperation and research excellence, UniTS plays a key role in advancing knowledge, culture, and economic development in the region."
         site: https://portale.units.it/en
         map: https://maps.app.goo.gl/rtcd5ufs2pXyiAic7
 
       - img: img/facilities/fonda.jpg
         title: Collegio Universitario Luciano Fonda
         tag: 'fonda'
-        descr: ''
+        descr: 'Luciano Fonda University College is a merit-based residential college recognized by the Italian Ministry of University and Research (MUR). Located in the ex-Military Hospital campus of Trieste, it offers distinguished students living accommodations combined with an enriched interdisciplinary educational program. Through seminars, specialized courses, soft-skill development, personalized tutoring, and intensive English instruction, Collegio Fonda enhances the academic journey of its students beyond standard university curricula.'
         site: https://www.collegiofonda.it/
         map: https://maps.app.goo.gl/n59AKzY4mtLeuwCc9
 
       - img: img/facilities/INAF-Tireste.jpg
         title: INAF Astronomical Observatory
         tag: 'inaf'
-        descr: ''
+        descr: "The Astronomical Observatory of Trieste (OATS), part of INAF (Istituto Nazionale di Astrofisica), is one of Italy's leading astrophysical research centres. With city offices in historic villas and an observation station on the Carso near Basovizza, its research spans solar physics, stellar populations, cosmology, high-energy astrophysics, astrobiology, and instrumentation. The Observatory is active in education at undergraduate and PhD levels and runs extensive outreach programs, including the public use of its 60 cm telescope in Specola Margherita Hack."
         site: https://www.oats.inaf.it/index.php/en/
         map: https://maps.app.goo.gl/Dh1BH587zKyBNYyC8
 
@@ -33,36 +33,35 @@ cards:
       - img: img/facilities/elettra.jpg
         title: Elettra Sincrotrone Trieste
         tag: 'elettra'
-        descr: 'Elettra Sincrotrone Trieste is a multidisciplinary research center of excellence, open to the international research community, specializing in generating high quality synchrotron and free-electron laser light and applying it in materials and life sciences.'
+        descr: "Elettra Sincrotrone Trieste is a multidisciplinary research centre of excellence specializing in generating high-quality synchrotron and free-electron laser light. Located in the AREA Science Park, Basovizza, it operates the Elettra storage ring and the FEL facility FERMI, supplying light to over 30 experimental stations. Elettra facilitates both basic and applied research, supports technological innovation, and provides services to national and international users. Its mission includes technology transfer, educational training, and fostering collaborations that bridge academia and industry."
         site: https://www.elettra.eu/
         map: https://maps.app.goo.gl/Dg5dRUTaoKaPAcX1A
 
       - img: img/facilities/padriciano.jpg
-        title: Area Science Park
+        title: Area Science Park of Padriciano
         tag: 'padriciano'
-        descr: ''
+        descr: 'AREA Science Park is a national public research and innovation centre under the supervision of the Italian Ministry of University and Research (MIUR). Since 1978, it has operated as one of Italy’s most important science & technology parks, facilitating collaboration between research, industry, and the public sector. With multiple campuses (including Padriciano and Basovizza), it hosts high-tech labs, companies, and research centres. Its mission is to support high-risk, cutting-edge innovation—especially in life sciences, materials, ICT, and data science—and to help startup creation, technology transfer, and infrastructure development.'
         site: https://www.areasciencepark.it/en/
         map: https://maps.app.goo.gl/QjX1R2wdFLPcJg4R7
 
-      #   # TODO: da aggiornare cnr
-      # - img: img/facilities/cnr.jpg
-      #   title: CNR (National Research Council)
-      #   tag: 'cnr'
-      #   descr: ''
-      #   site: https://www.cnr.it/en
-      #   map: https://maps.app.goo.gl/kq95u1NAUaFvmV1S8
+      - img: img/facilities/cnr.jpg
+        title: CNR-IOM at Area Science Park of Basovizza
+        tag: 'cnr'
+        descr: "CNR - Istituto Officina dei Materiali (IOM) is an interdisciplinary research Institute of the National Research Council of Italy that carries out research in the fields of condensed matter physics, nanoscience, and biophysics."
+        site: https://www.iom.cnr.it/
+        map: https://maps.app.goo.gl/kq95u1NAUaFvmV1S8
 
       - img: img/facilities/inaf_central.jpg
         title: National Institute for Astrophysics (INAF)
         tag: 'inaf_central'
-        descr: ''
+        descr: "The Astronomical Observatory of Trieste (OATS), part of INAF (Istituto Nazionale di Astrofisica), is one of Italy's leading astrophysical research centres. With city offices in historic villas and an observation station on the Carso near Basovizza, its research spans solar physics, stellar populations, cosmology, high-energy astrophysics, astrobiology, and instrumentation. The Observatory is active in education at undergraduate and PhD levels and runs extensive outreach programs, including the public use of its 60 cm telescope in Specola Margherita Hack."
         site: https://www.oats.inaf.it/index.php/en/
         map: https://maps.app.goo.gl/oZbL4v8h46Av9cT56
 
       - img: img/facilities/ictpjpg.jpg
         title: International Centre for Theoretical Physics (ICTP)
         tag: 'ictp'
-        descr: 'Founded in 1964 by the late Nobel Laureate Abdus Salam and by Italian physicist Paolo Budinich, the International Centre for Theoretical Physics (ICTP) is a unique institution that explores fundamental scientific questions at the highest level, promotes active engagement with scientists in developing countries, and advances international cooperation through science.'
+        descr: "The Ioannis Abdus Salam International Centre for Theoretical Physics (ICTP), founded in 1964, is an international institute devoted to advanced research and education in physics and mathematics. Under the joint governance of the Italian Government, UNESCO and the IAEA, it provides scientists from around the world—especially from developing countries—with access to outstanding workshops, educational programs, and sabbatical opportunities. ICTP plays a central role in the “Trieste System” for scientific cooperation, hosting thousands of researchers annually and promoting interdisciplinary inquiry in areas ranging from cosmology and physics to climate science and quantitative life sciences."
         site: https://www.ictp.it/
         map: https://maps.app.goo.gl/wc3wzKTA5rQxrviUA
 

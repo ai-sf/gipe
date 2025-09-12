@@ -110,7 +110,7 @@
 }
 
 .slot-description {
-  // margin-top: 0.25rem;
+  margin-top: 0.5rem;
   font-size: 1rem;
   margin-bottom: 1rem;
   color: #444;
@@ -384,6 +384,10 @@
         color: #444;
       }
 
+      .substep-title strong {
+        font-weight: bold !important;
+      }
+
       .substep-description {
         font-size: 1rem;
         color: #444;
@@ -391,9 +395,61 @@
         margin-top: 0.2rem;
         line-height: 1.4;
       }
+
+      .substep-description-points{
+        margin: 0.6rem 0 0.3rem 0rem;
+        padding: 0 0.5rem 0 0.5rem;
+        list-style: none;
+
+        .point{
+          display: flex;
+          gap: 0.5rem;
+          margin-bottom: 0.5rem;
+
+          .point-icon-wrapper {
+            display: flex;
+            align-items: start;
+            flex-shrink: 0;
+
+            i.material-icons {
+              font-size: 0.9rem;
+              color: $color-type1;
+              line-height: 1.6;
+            }
+          }
+
+          .point-text-row {
+            display: flex;
+            align-items: center;
+
+            .point-text {
+              // font-weight: 500;
+              font-size: 1rem;
+              color: #444;
+            }
+
+            .point-text strong {
+              font-weight: bold !important;
+            }
+          }
+        }
+      }
+
+      // .substep-descriptions {
+      //   // margin: 0.3rem 0rem 0.8rem 0;
+      //   // padding-left: 1.5rem;
+      //   // list-style-type: circle;
+      //   // font-size: 0.9rem;
+      //   color: #444;
+
+      //   li {
+      //     margin-bottom: 0.2rem;
+      //   }
+      // }
     }
   }
 }
+
 
 .schedule-slot.open-slot {
   // background-color: rgba($color-type1, 0.08); // colore lilla chiaro
