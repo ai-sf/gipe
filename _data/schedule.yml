@@ -90,7 +90,7 @@ ControventoHostel / ICTP Guest House."
           id: "rezzolla"
         - name: "Laura Gonella"
           # photo: "/img/speakers/jane.jpg"
-          description: "Professor in Nuclear Physics at University of Trieste since 2024"
+          description: "Professor in Nuclear Physics at University of Trieste"
           id: "gonella"
         - name: "Alberto Imparato"
           photo: "/img/speakers/imparato/Imparato_Alberto_DFT_foto.jpg  "
@@ -187,21 +187,29 @@ physicist Paolo Budinich."
         url: "/facilities/#sissa"
 
     - time: "14:00-16:00"
-      title: "VISITING INFN AND AREA SCIENCE PARK"
+      title: "VISITING AREA SCIENCE PARK AND INFN"
       place:
         name: "Padriciano"
         url: "/facilities/#area"
-      descriptions:
-        - "A presentation on the research lines of Area Science Park in Padriciano will be given by Dott. Emanuele Panizon."
-      speakers:
-        - name: "Emanuele Panizon"
-          photo: "/img/speakers/panizon/foto_panizon.jpg"
-          description: "AI researcher at the Laboratory of Data Engineering at Area Science Park"
-          id: "panizon"
+      substeps:
+        - title: "A presentation on the research lines of <strong>Area Science Park in Padriciano</strong> will be given by Dott. Emanuele Panizon."
+          speaker:
+            name: "Emanuele Panizon"
+            photo: "/img/speakers/panizon/foto_panizon.jpg"
+            description: "AI researcher at the Laboratory of Data Engineering at Area Science Park"
+            id: "panizon"
+
+        - title: "Guided tour by researchers in some of the <strong>INFN</strong> labs:"
+          descriptions:
+            - "<strong>COSMIC RAYS:</strong> In this session, participants will be introduced to the fascinating world of cosmic particles and the instruments used to study them. They will also have the chance to see cosmic particles in action at ground level with the cosmic-ray cube, a small telescope developed by INFN specifically for outreach and educational activities. - Mirko Boezio, Director of Research at INFN;"
+            - "<strong>GAMMA ASTROPHYSICS OF HIGH ENERGY.</strong> - Alessandro Vigliano, Postdoctoral researcher in Trieste;"
+            - "<strong>ADVANCED X-RAY IMAGING:</strong> After a brief visit to the PEPI Laboratory (Photon-counting Edge-Illumination Phase-Contrast Imaging), students will be introduced to advanced X-ray imaging techniques and their applications in the biomedical field. - Luigi Rigon, Associate Professor at the University of Trieste and Andrew Coathup, a Postdoctoral Researcher at the University of Trieste;"
+            - "<strong>HOLOGRAPHIC ALIGNMENT MONITOR:</strong> In this session, participants will see: Holographic Alignment Monitor - an optical dignostic tool for tracking particle detectors (HAM for MUonE) and Kinetic WISP detector - an optomechanical detector to search for Dark Matter (KWISP) - Giovanni Cantatore, Professor of Physics at the University of Trieste;"
+            - "<strong>ELECTRONICS FOR DETECTORS:</strong> Si-detector characterisation system (for the eXTP satellite) and technological overview. - Matias Antonelli, an electronic engineer and PhD."
       note: "Private transportation provided."
       # description: "Participants will have the opportunity to visit the laboratories of AREA Science Park, Elettra Sincrotrone, CNR and INFN."
     - time: "16:45-18:45"
-      title: "VISITING ELETTRA SINCROTRONE AND CNR"
+      title: "VISITING ELETTRA SINCROTRONE AND CNR-IOM"
       place:
         name: "Basovizza"
         url: "/facilities/#elettra"
