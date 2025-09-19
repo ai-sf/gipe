@@ -303,14 +303,14 @@ physicist Paolo Budinich."
 
 - day: SATURDAY 20/09
   slots:
-    - time: "10:00-12:00"
+    - time: "10:30-12:30"
       title: "CLOSING CEREMONY"
       place:
         name: "Collegio Universitario Luciano Fonda (Via Fabio Severo, 40)"
         url: "/facilities/#fonda"
       substeps:
-        - title: "<u>10:00-12:30</u>: Poster session with some of our sponsors;"
-        - title: "<u>12:30-13:00</u>: Closing ceremony."
+        - title: "<u>10:30-12:00</u>: Poster session with some of our sponsors;"
+        - title: "<u>12:00-12:30</u>: Closing ceremony."
 
     - time:
       title: "EXTRA ACTIVITY"
